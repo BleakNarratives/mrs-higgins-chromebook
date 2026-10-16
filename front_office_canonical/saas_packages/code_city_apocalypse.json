@@ -1,0 +1,14 @@
+{
+  "name": "Code City Apocalypse Scanner",
+  "price_sats": 15000,
+  "tagline": "Codebase topology scanning for complexity hotspots.",
+  "description": "Maps repository structure into a navigable graph so teams can spot debt clusters, dependency bottlenecks, and refactor targets quickly.",
+  "features": [
+    "3D architectural mapping",
+    "Complexity hotspot detection",
+    "Dependency graph visualization"
+  ],
+  "pricing_model": "One-time per-project audit",
+  "estimated_roi_per_business": "Cuts time spent finding refactor targets and dependency issues",
+  "target_platforms": ["Fiverr", "Upwork"]
+}

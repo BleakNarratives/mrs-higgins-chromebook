@@ -1,0 +1,17 @@
+[
+  {
+    "board": "SaaS",
+    "package": "MOLT dispatch guards (agent-loop hardening middleware)",
+    "found_at": "2026-09-25T08:52:27Z"
+  },
+  {
+    "board": "SaaS",
+    "package": "Signed provenance receipts (Bufftag/Qwentag/dna_tag)",
+    "found_at": "2026-09-25T08:52:27Z"
+  },
+  {
+    "board": "PaaS",
+    "package": "diff-theater.animation/v1 compiler + animaker dev tools",
+    "found_at": "2026-09-25T08:52:27Z"
+  }
+]

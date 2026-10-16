@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "name": "Codementor-SaaS",
+    "path": "/storage/emulated/0/RootBase/Codementor-SaaS",
+    "languages": {
+      "python": 1,
+      "html": 1
+    },
+    "entrypoints": [],
+    "package_json": false,
+    "requirements": 1,
+    "readme_excerpt": "# CodeMentor SaaS\n\nA professional, terminal-based AI analysis platform for code intelligence and automated documentation.\n\n## Features",
+    "last_modified": "2026-06-22T04:09:50.958504"
+  },
+  "runbook": {
+    "commands": [
+      "python3 -m venv .venv && source .venv/bin/activate && pip install -r requirements.txt && python main.py"
+    ],
+    "env": [],
+    "notes": []
+  },
+  "bard_note": "No obvious entrypoint. Bold choice. Has Python deps. Hope they pinned versions. (Bardildo: harsh truth incoming)"
+}

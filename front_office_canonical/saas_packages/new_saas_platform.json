@@ -1,0 +1,14 @@
+{
+  "name": "New SaaS Platform",
+  "tagline": "Supply-chain AI SaaS platform with Python backend",
+  "pricing_model": "Subscription - Lightning monthly",
+  "estimated_roi_per_business": "Supply-chain focused AI SaaS with automated delivery pipeline. Entry point: supply_saas.py. Zero upfront cost model.",
+  "target_platforms": ["Direct", "Nostr", "Fiverr"],
+  "price_sats": 40000,
+  "url": "https://new-saas-platform.onrender.com",
+  "description": "New SaaS Platform is a supply-chain AI service that automates SaaS delivery and management. Python-based with supply_saas.py as entrypoint. Designed for rapid deployment and scalability.",
+  "features": ["Supply-chain AI automation", "SaaS delivery pipeline", "Python backend", "Automated provisioning", "Scalable architecture", "Lightning payments", "Zero KYC", "Production-ready", "Low overhead", "Rapid deployment"],
+  "technical_details": {"architecture": "Python-based SaaS pipeline", "entrypoint": "supply_saas.py", "status": "production_ready", "autonomy_level": "80%"},
+  "income_potential": {"monthly_estimate_sats": "500000-2500000", "break_even_days": 10, "scalability_factor": "Linear"},
+  "status": "production_ready"
+}

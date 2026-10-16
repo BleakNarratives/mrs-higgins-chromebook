@@ -1,0 +1,22 @@
+{
+  "name": "CodeSleuth",
+  "tagline": "AI-powered code quality analysis with intelligent improvement suggestions",
+  "description": "CodeSleuth automatically scans your codebase for quality issues, security vulnerabilities, and performance bottlenecks. Using advanced pattern matching and AI analysis, it provides actionable suggestions to improve your code quality, reduce technical debt, and enhance security posture.",
+  "features": [
+    "Automated code quality scanning",
+    "Security vulnerability detection",
+    "Performance bottleneck identification",
+    "AI-generated improvement suggestions",
+    "Customizable rule sets",
+    "JSON and text report formats",
+    "CI/CD integration ready",
+    "Confidence scoring for all findings"
+  ],
+  "target_platforms": ["GitHub Marketplace", "Direct SaaS", "API Service"],
+  "pricing_model": "Freemium - Free for public repos, $19/month for private repos, $99/month for teams",
+  "price_sats": 20000,
+  "estimated_roi_per_business": "Reduces code review time by 40% and catches critical vulnerabilities early",
+  "delivery_days": 7,
+  "category": "Developer Tools",
+  "tags": ["code review", "security scanning", "AI analysis", "code quality", "static analysis", "developer tools"]
+}

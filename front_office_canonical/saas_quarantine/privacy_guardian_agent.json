@@ -1,0 +1,14 @@
+{
+  "name": "Privacy Guardian Agent",
+  "price_sats": 35000,
+  "tagline": "PII detection and masking for AI pipelines.",
+  "description": "Detects and redacts sensitive personal data before it reaches downstream models, logs, or external services.",
+  "features": [
+    "Autonomous PII detection and masking",
+    "Data ModMind autonomy assurance",
+    "Pipeline data flow sanitization"
+  ],
+  "pricing_model": "Subscription per secure pipeline",
+  "estimated_roi_per_business": "Reduces exposure risk and simplifies privacy controls",
+  "target_platforms": ["Fiverr", "Nostr"]
+}

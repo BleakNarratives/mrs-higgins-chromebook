@@ -1,0 +1,136 @@
+[12:51:49] === Mrs. Higgins Pipeline START ===
+[12:51:49] Mode: LIVE | Platform: ALL
+[12:51:49] --- 1/5 Front Desk Lady ---
+[LOADED] android_dev_environment.json
+[LOADED] business_scout.json
+[LOADED] lightning_payment_integration.json
+[LOADED] local_ai_chatbot_setup.json
+[LOADED] truthsleuth.json
+
+=== Mrs. Higgins ON DUTY [LIVE] — 5 package(s) ===
+
+[ROUTING] Android Dev Environment Setup
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+
+[ROUTING] Local Business Health Scout
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Nostr
+  [OK] → Fiverr
+
+[ROUTING] Lightning Payment Integration
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+  [OK] → Nostr
+
+[ROUTING] Local AI Chatbot Setup
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+
+[ROUTING] TruthSleuth Static Analysis Auditor
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Nostr
+  [OK] → Fiverr
+
+[DONE] 11 route(s) logged → front_desk_routing_log.json
+[12:51:50] --- 2/5 Bookkeeper ---
+/storage/emulated/0/RootBase/archive/mrs-higgins-main/mrs-higgins-main/bookkeeper.py:46: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": datetime.utcnow().isoformat() + "Z",
+  [SKIP] Android Dev Environment Setup / Fiverr — no hash
+  [SKIP] Android Dev Environment Setup / Upwork — no hash
+  [SKIP] Local Business Health Scout / Nostr — no hash
+  [SKIP] Local Business Health Scout / Fiverr — no hash
+  [SKIP] Lightning Payment Integration / Fiverr — no hash
+  [SKIP] Lightning Payment Integration / Upwork — no hash
+  [SKIP] Lightning Payment Integration / Nostr — no hash
+  [SKIP] Local AI Chatbot Setup / Fiverr — no hash
+  [SKIP] Local AI Chatbot Setup / Upwork — no hash
+  [SKIP] TruthSleuth Static Analysis Auditor / Nostr — no hash
+  [SKIP] TruthSleuth Static Analysis Auditor / Fiverr — no hash
+
+[DONE] settled=0 pending=0 untracked=11
+       → income_summary.json
+[12:51:50] --- 3/5 The Closer ---
+[ABORT] Set TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID env vars.
+[12:51:50] --- 4/5 Copywriter ---
+[COPYWRITER] model=qwen2.5:1.5b packages=5
+  [Fiverr] Android Dev Environment Setup...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Upwork] Android Dev Environment Setup...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Nostr] Local Business Health Scout...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Fiverr] Local Business Health Scout...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Fiverr] Lightning Payment Integration...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Upwork] Lightning Payment Integration...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Nostr] Lightning Payment Integration...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Fiverr] Local AI Chatbot Setup...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Upwork] Local AI Chatbot Setup...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Nostr] TruthSleuth Static Analysis Auditor...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+  [Fiverr] TruthSleuth Static Analysis Auditor...   [Ollama] Error: HTTP Error 404: Not Found
+[FAIL]
+
+[DONE] Copy files in ./copy_output/
+[12:51:51] --- 5/5 Scout ---
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/common/driver_finder.py", line 67, in _binary_paths
+    output = SeleniumManager().binary_paths(self._to_args())
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/common/selenium_manager.py", line 47, in binary_paths
+    args = [str(self._get_binary())] + args
+                ~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/common/selenium_manager.py", line 117, in _get_binary
+    raise WebDriverException(f"Unsupported platform/architecture combination: {sys.platform}/{arch}")
+selenium.common.exceptions.WebDriverException: Message: Unsupported platform/architecture combination: android/aarch64
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/storage/emulated/0/RootBase/archive/mrs-higgins-main/mrs-higgins-main/scout.py", line 154, in <module>
+    main()
+    ~~~~^^
+  File "/storage/emulated/0/RootBase/archive/mrs-higgins-main/mrs-higgins-main/scout.py", line 151, in main
+    run_once(headless=headless, packages_dir=args.packages_dir)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/RootBase/archive/mrs-higgins-main/mrs-higgins-main/scout.py", line 115, in run_once
+    driver    = build_driver(headless=headless)
+  File "/storage/emulated/0/RootBase/archive/mrs-higgins-main/mrs-higgins-main/scout.py", line 63, in build_driver
+    return webdriver.Chrome(options=opts)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py", line 45, in __init__
+    super().__init__(
+    ~~~~~~~~~~~~~~~~^
+        browser_name=DesiredCapabilities.CHROME["browserName"],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        keep_alive=keep_alive,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/chromium/webdriver.py", line 50, in __init__
+    if finder.get_browser_path():
+       ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/common/driver_finder.py", line 47, in get_browser_path
+    return self._binary_paths()["browser_path"]
+           ~~~~~~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/common/driver_finder.py", line 78, in _binary_paths
+    raise NoSuchDriverException(msg) from err
+selenium.common.exceptions.NoSuchDriverException: Message: Unable to obtain driver for chrome; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+
+[12:51:52] WARN: scout.py failed (non-fatal)
+[12:51:52] === Pipeline COMPLETE → ./logs/run_20260522_125148.log ===

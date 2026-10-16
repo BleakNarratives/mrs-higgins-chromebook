@@ -1,0 +1,14 @@
+{
+  "name": "AskHole AI Assistant",
+  "price_sats": 10000,
+  "tagline": "Internal knowledge assistant for onboarding and documentation.",
+  "description": "An assistant for answering team questions from docs, onboarding material, and project context without forcing humans to hunt across files.",
+  "features": [
+    "Documentation search and summarization",
+    "Onboarding guidance",
+    "Contextual team Q&A"
+  ],
+  "pricing_model": "Monthly subscription",
+  "estimated_roi_per_business": "Reduces onboarding and repeated question load",
+  "target_platforms": ["Fiverr", "Upwork"]
+}

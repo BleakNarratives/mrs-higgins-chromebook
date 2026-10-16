@@ -1,0 +1,17 @@
+{
+  "name": "AskHole",
+  "tagline": "AI excuse generator. Dial in your fib level. Never get caught slipping.",
+  "description": "AskHole generates believable, personalized excuses on demand. Tell it who the excuse is for, what you're getting out of, and your relationship with them. Dial in a Fib Level (white lie to Oscar-worthy fiction), a style (apologetic to dramatic), and a detail level. Get a ready-to-send excuse plus an AskHole Score — a 1-100 rating of exactly how much of an AskHole you're being. Freemium web app with viral potential.",
+  "features": [
+    "AI-powered excuse generation with context awareness",
+    "Fib Level slider — white lie to full Oscar-worthy fiction",
+    "Style controls — apologetic, casual, dramatic, professional",
+    "AskHole Score — rates how bad you're being on a 1-100 scale",
+    "Ready-to-send excuse copy with one click",
+    "Freemium model — 5 free excuses, then subscription"
+  ],
+  "price_sats": 5000,
+  "pricing_model": "Freemium — 5 free excuses on signup, $4.99/month unlimited (Chronic AskHole plan), $2.99 credit packs",
+  "estimated_roi_per_business": "Viral consumer app — revenue through subscriptions and credit packs",
+  "target_platforms": ["Fiverr", "Nostr"]
+}

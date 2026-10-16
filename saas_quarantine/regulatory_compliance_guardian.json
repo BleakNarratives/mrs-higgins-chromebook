@@ -1,0 +1,14 @@
+{
+  "name": "Regulatory Compliance Guardian",
+  "price_sats": 120000,
+  "tagline": "Real-time compliance monitoring for automated financial agents.",
+  "description": "Continuous analysis of inbound data and outbound actions to ensure enterprise AI operations adhere to complex financial regulations, mitigating risk of regulatory fines.",
+  "features": [
+    "Automated outbound action detoxification",
+    "Continuous compliance rule-set updates based on regulatory news",
+    "Audit-ready logging and reporting"
+  ],
+  "pricing_model": "Enterprise annual subscription",
+  "estimated_roi_per_business": "Prevents catastrophic regulatory fines and reputational loss",
+  "target_platforms": ["Enterprise Dashboard", "Agent Logs"]
+}

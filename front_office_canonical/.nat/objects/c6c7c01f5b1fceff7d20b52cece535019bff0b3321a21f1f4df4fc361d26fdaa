@@ -1,0 +1,20 @@
+{
+  "name": "Android Dev Environment Setup",
+  "tagline": "Turn your Android phone into a real development machine. No root required.",
+  "description": "I'll configure a full Linux development environment on your Android device using Termux — Python, Node, Git, SSH, local AI inference, the works. Built for developers who need a portable setup that actually works, not a toy terminal.",
+  "features": [
+    "Termux full environment setup and hardening",
+    "Python, Node, Rust toolchain installation",
+    "Ollama local AI inference configured",
+    "SSH keys, Git config, dotfiles",
+    "SD card storage routing for large projects",
+    "Custom .bashrc with productivity aliases"
+  ],
+  "target_platforms": ["Fiverr", "Upwork"],
+  "pricing_model": "Flat fee $99 / $49 add-on for custom tooling",
+  "price_sats": 100000,
+  "estimated_roi_per_business": "Replaces need for $500+ laptop for remote dev work",
+  "delivery_days": 2,
+  "category": "Mobile Development",
+  "tags": ["termux", "android", "development environment", "no root", "local AI", "portable dev"]
+}

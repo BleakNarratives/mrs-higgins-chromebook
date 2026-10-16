@@ -1,0 +1,112 @@
+# Author: BleakNarratives
+# Filename: bookkeeper.py
+# Path: G:\Foxwood\moto-2024-sd-r26\bookkeeper.py
+
+import json
+import os
+import urllib.request
+import urllib.error
+from datetime import datetime
+import sys
+
+ROOTBASE = "/data/data/com.termux/files/home/RootBase"
+THOTH_PATH = os.getenv("THOTH_ORCHESTRATOR_PATH", os.path.join(ROOTBASE, "Thoth"))
+if THOTH_PATH not in sys.path:
+    sys.path.append(THOTH_PATH)
+
+try:
+    from agent_bus import emit_event
+except Exception:
+    def emit_event(event_type, payload=None, **kwargs):
+        return {"event_type": event_type, "payload": payload or {}, **kwargs}
+
+LOG_PATH     = "front_desk_routing_log.json"
+SUMMARY_PATH = "income_summary.json"
+
+def check_payment(lnbits_url, invoice_key, payment_hash):
+    """
+    GET /api/v1/payments/{payment_hash}
+    Returns True if settled, False otherwise.
+    """
+    if not lnbits_url or not invoice_key or not payment_hash:
+        return None  # can't check
+    req = urllib.request.Request(
+        f"{lnbits_url.rstrip('/')}/api/v1/payments/{payment_hash}",
+        headers={"X-Api-Key": invoice_key},
+        method="GET"
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read().decode())
+            return data.get("paid", False)
+    except Exception as e:
+        print(f"  [LNbits] Check failed for {payment_hash[:12]}: {e}")
+        return None
+
+def run():
+    lnbits_url   = os.getenv("LNBITS_URL", "")
+    invoice_key  = os.getenv("LNBITS_INVOICE_KEY", "")
+
+    if not os.path.exists(LOG_PATH):
+        print(f"[ABORT] {LOG_PATH} not found. Run front_desk_lady.py first.")
+        return
+
+    with open(LOG_PATH, "r") as f:
+        log = json.load(f)
+
+    summary = {
+        "generated_at": datetime.utcnow().isoformat() + "Z",
+        "total_routed": len(log),
+        "settled": [],
+        "pending": [],
+        "untracked": []
+    }
+
+    for entry in log:
+        name   = entry.get("package_name", "unknown")
+        platform = entry.get("platform", "unknown")
+        phash  = entry.get("payment_hash")
+        status = entry.get("status")
+
+        if status == "DRY_RUN" or not phash:
+            summary["untracked"].append({"package": name, "platform": platform, "reason": status or "no_hash"})
+            print(f"  [SKIP] {name} / {platform} — no hash")
+            continue
+
+        paid = check_payment(lnbits_url, invoice_key, phash)
+        record = {"package": name, "platform": platform, "payment_hash": phash}
+
+        if paid is True:
+            summary["settled"].append(record)
+            print(f"  [PAID] {name} / {platform}")
+        elif paid is False:
+            summary["pending"].append(record)
+            print(f"  [PEND] {name} / {platform}")
+        else:
+            summary["untracked"].append({**record, "reason": "check_failed"})
+            print(f"  [ERR]  {name} / {platform}")
+
+    summary["settled_count"] = len(summary["settled"])
+    summary["pending_count"] = len(summary["pending"])
+    summary["untracked_count"] = len(summary["untracked"])
+
+    with open(SUMMARY_PATH, "w") as f:
+        json.dump(summary, f, indent=2)
+
+    emit_event(
+        "income.summary.updated",
+        {
+            "settled_count": summary["settled_count"],
+            "pending_count": summary["pending_count"],
+            "untracked_count": summary["untracked_count"],
+            "generated_at": summary["generated_at"],
+        },
+        source="mrs_higgins",
+        origin="bookkeeper",
+    )
+
+    print(f"\n[DONE] settled={summary['settled_count']} pending={summary['pending_count']} untracked={summary['untracked_count']}")
+    print(f"       → {SUMMARY_PATH}")
+
+if __name__ == "__main__":
+    run()

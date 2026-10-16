@@ -1,0 +1,14 @@
+{
+  "name": "Context Defragmentation Engine",
+  "price_sats": 40000,
+  "tagline": "Context compression and state preservation for long agent loops.",
+  "description": "Reduces context bloat by compressing prior actions into compact state while keeping enough history for the agent to continue correctly.",
+  "features": [
+    "Continuous runtime prompt compression",
+    "Operational state-vector caching",
+    "Anti-hallucination context pruning"
+  ],
+  "pricing_model": "Per-gigabyte of processed context state",
+  "estimated_roi_per_business": "Lowers long-context cost and reduces drift during extended runs",
+  "target_platforms": ["Upwork", "Nostr"]
+}

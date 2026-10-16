@@ -1,0 +1,406 @@
+{
+  "generated_at": "2026-06-16T12:54:45.517972Z",
+  "total_routed": 79,
+  "settled": [],
+  "pending": [],
+  "untracked": [
+    {
+      "package": "Adversarial Shield Agent",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Adversarial Shield Agent",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Android Dev Environment Setup",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Android Dev Environment Setup",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "AskHole",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "AskHole",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "AskHole AI Assistant",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "AskHole AI Assistant",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Asset Recovery Optimizer",
+      "platform": "CRM",
+      "reason": "Routed"
+    },
+    {
+      "package": "Asset Recovery Optimizer",
+      "platform": "Field Recon",
+      "reason": "Routed"
+    },
+    {
+      "package": "Asset Recovery Optimizer",
+      "platform": "Financial Dashboards",
+      "reason": "Routed"
+    },
+    {
+      "package": "Local Business Health Scout",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Local Business Health Scout",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Capitulation Prediction Engine",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Code City Apocalypse Scanner",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Code City Apocalypse Scanner",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Code City Blue Beta Access",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Code City Blue Beta Access",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "CodeSleuth",
+      "platform": "GitHub Marketplace",
+      "reason": "Routed"
+    },
+    {
+      "package": "CodeSleuth",
+      "platform": "Direct SaaS",
+      "reason": "Routed"
+    },
+    {
+      "package": "CodeSleuth",
+      "platform": "API Service",
+      "reason": "Routed"
+    },
+    {
+      "package": "Compliance Auditor Agent",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Compliance Auditor Agent",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Context Defragmentation Engine",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Context Defragmentation Engine",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "DocGenius",
+      "platform": "GitHub Marketplace",
+      "reason": "Routed"
+    },
+    {
+      "package": "DocGenius",
+      "platform": "Direct SaaS",
+      "reason": "Routed"
+    },
+    {
+      "package": "DocGenius",
+      "platform": "VS Code Extension",
+      "reason": "Routed"
+    },
+    {
+      "package": "Equinex Forge",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "HotSeat",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "HotSeat",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Lightning Payment Integration",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Lightning Payment Integration",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Lightning Payment Integration",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Local AI Chatbot Setup",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Local AI Chatbot Setup",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Maigret Intelligence",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Maigret Intelligence",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Model Guard: LLM Quality Control",
+      "platform": "Development Pipelines",
+      "reason": "Routed"
+    },
+    {
+      "package": "Model Guard: LLM Quality Control",
+      "platform": "CI/CD",
+      "reason": "Routed"
+    },
+    {
+      "package": "Model Guard: LLM Quality Control",
+      "platform": "Local Dev Environments",
+      "reason": "Routed"
+    },
+    {
+      "package": "Molt Automation Engine",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Molt Automation Engine",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Operational Fidelity Monitor",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Operational Fidelity Monitor",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "SaaS Outreach Engine",
+      "platform": "Email",
+      "reason": "Routed"
+    },
+    {
+      "package": "SaaS Outreach Engine",
+      "platform": "CRM",
+      "reason": "Routed"
+    },
+    {
+      "package": "Distress Intel Engine",
+      "platform": "Boardroom",
+      "reason": "Routed"
+    },
+    {
+      "package": "Distress Intel Engine",
+      "platform": "Hotseat",
+      "reason": "Routed"
+    },
+    {
+      "package": "Distress Intel Engine",
+      "platform": "Scouts",
+      "reason": "Routed"
+    },
+    {
+      "package": "Supply Chain Ingestion Pipeline",
+      "platform": "Boardroom",
+      "reason": "Routed"
+    },
+    {
+      "package": "Supply Chain Ingestion Pipeline",
+      "platform": "Hotseat",
+      "reason": "Routed"
+    },
+    {
+      "package": "Supply Chain Ingestion Pipeline",
+      "platform": "Askhole",
+      "reason": "Routed"
+    },
+    {
+      "package": "Supply Chain Ingestion Pipeline",
+      "platform": "Scouts",
+      "reason": "Routed"
+    },
+    {
+      "package": "Pipeline Observability Bridge",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Pipeline Observability Bridge",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Predictive Margin Guardian",
+      "platform": "ERP Integrations",
+      "reason": "Routed"
+    },
+    {
+      "package": "Predictive Margin Guardian",
+      "platform": "Operational Dashboards",
+      "reason": "Routed"
+    },
+    {
+      "package": "Predictive Market Scout",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Predictive Market Scout",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Privacy Guardian Agent",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Privacy Guardian Agent",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "ReconDog Security",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "ReconDog Security",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Regulatory Compliance Guardian",
+      "platform": "Enterprise Dashboard",
+      "reason": "Routed"
+    },
+    {
+      "package": "Regulatory Compliance Guardian",
+      "platform": "Agent Logs",
+      "reason": "Routed"
+    },
+    {
+      "package": "ModMind Developer Profiler",
+      "platform": "GitHub",
+      "reason": "Routed"
+    },
+    {
+      "package": "ModMind Developer Profiler",
+      "platform": "LinkedIn",
+      "reason": "Routed"
+    },
+    {
+      "package": "ModMind Developer Profiler",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Swarm Token Economist",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Swarm Token Economist",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Syntax AI CLI",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Syntax AI CLI",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "TruthSleuth Static Analysis Auditor",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "TruthSleuth Static Analysis Auditor",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Vertical AI",
+      "platform": "Upwork",
+      "reason": "Routed"
+    },
+    {
+      "package": "Vertical AI",
+      "platform": "Nostr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Voice Synthesis Agent",
+      "platform": "Fiverr",
+      "reason": "Routed"
+    },
+    {
+      "package": "Voice Synthesis Agent",
+      "platform": "Nostr",
+      "reason": "Routed"
+    }
+  ],
+  "settled_count": 0,
+  "pending_count": 0,
+  "untracked_count": 79
+}

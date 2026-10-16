@@ -1,0 +1,14 @@
+{
+  "name": "Syntax AI CLI",
+  "price_sats": 20000,
+  "tagline": "Local-first CLI for repo-aware code search and refactoring.",
+  "description": "A command-line workspace for scanning source trees, answering codebase questions, and drafting targeted refactors with local models and deterministic tooling.",
+  "features": [
+    "Repo-aware code search",
+    "Targeted refactor planning",
+    "Local model integration"
+  ],
+  "pricing_model": "Monthly subscription",
+  "estimated_roi_per_business": "Cuts routine code navigation and refactor prep time materially",
+  "target_platforms": ["Nostr", "Upwork"]
+}

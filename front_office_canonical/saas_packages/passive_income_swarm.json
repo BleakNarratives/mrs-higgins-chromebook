@@ -1,0 +1,38 @@
+{
+  "name": "Passive Income Swarm",
+  "tagline": "Autonomous AI swarm for generating non-KYC passive income streams",
+  "pricing_model": "Revenue share - 10% of generated income",
+  "estimated_roi_per_business": "Fully autonomous income generation with zero KYC requirements. Swarm self-optimizes across Fiverr, Nostr, and direct channels",
+  "target_platforms": [
+    "Fiverr",
+    "Nostr",
+    "Direct/Email"
+  ],
+  "price_sats": 50000,
+  "url": "https://zeroclaw-marketplace.onrender.com",
+  "description": "Passive Income Swarm is a self-sustaining AI-powered system that autonomously generates revenue through multiple channels. Uses zeroclaw for decentralized execution, Nostr for communications, and Lightning for payments. No KYC required - pure peer-to-peer value exchange. The swarm includes: autonomous lead generation, AI-powered service delivery, payment reconciliation via Lightning, and self-optimizing mutation engine.",
+  "features": [
+    "Fully autonomous - runs 24/7 without human intervention",
+    "Zero KYC - peer-to-peer only, no centralized exchanges",
+    "Multi-platform - Fiverr, Nostr, direct sales",
+    "Self-optimizing - DNA mutation engine improves performance",
+    "Lightning payments - instant settlement via Voltage/LNBits",
+    "Dominance tracking - monitors competitors and adapts",
+    "Lead curation - automatically filters and prioritizes opportunities",
+    "Marketing automation - creates and deploys promotional content",
+    "Revenue share model - 10% of all generated income",
+    "Circuit breaker - automatic pause on poor performance"
+  ],
+  "technical_details": {
+    "architecture": "Swarm-based with zeroclaw",
+    "payment_system": "Lightning Network (Voltage/LNBits)",
+    "autonomy_level": "95% - requires minimal human oversight",
+    "scalability": "Horizontal - add more swarm nodes for linear scaling",
+    "requirements": ["Termux (Android)", "zeroclaw binary", "Lightning wallet", "Nostr keys"]
+  },
+  "income_potential": {
+    "monthly_estimate_sats": "500000-5000000",
+    "break_even_days": 7,
+    "scalability_factor": "Linear with swarm size"
+  }
+}

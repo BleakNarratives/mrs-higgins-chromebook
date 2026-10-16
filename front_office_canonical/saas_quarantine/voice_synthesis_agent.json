@@ -1,0 +1,14 @@
+{
+  "name": "Voice Synthesis Agent",
+  "price_sats": 30000,
+  "tagline": "Managed voice synthesis with safety controls.",
+  "description": "Generates voice output with usage controls and approval hooks so teams can produce audio without losing track of consent and provenance.",
+  "features": [
+    "High-fidelity voice synthesis",
+    "Ethical cloning management",
+    "Fast content production"
+  ],
+  "pricing_model": "Per-project fee",
+  "estimated_roi_per_business": "Speeds audio production while keeping usage governed",
+  "target_platforms": ["Fiverr", "Nostr"]
+}

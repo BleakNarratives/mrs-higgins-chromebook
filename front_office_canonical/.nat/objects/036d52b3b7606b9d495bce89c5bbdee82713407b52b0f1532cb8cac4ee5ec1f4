@@ -1,0 +1,14 @@
+{
+  "name": "Distress Intel Engine",
+  "price_sats": 65000,
+  "tagline": "Real-time automated panic and distress signal routing.",
+  "description": "Ingests panic signals (real estate fire sales, equity capitulation, mortgage runs) and routes them into actionable telemetry for various enterprise nodes.",
+  "features": [
+    "Automated panic telemetry routing",
+    "CRM-ready lead export",
+    "Shareholder risk/hedge monitoring webhook"
+  ],
+  "pricing_model": "Subscription per intelligence feed",
+  "estimated_roi_per_business": "Reduces reaction time to liquidity events",
+  "target_platforms": ["Boardroom", "Hotseat", "Scouts"]
+}

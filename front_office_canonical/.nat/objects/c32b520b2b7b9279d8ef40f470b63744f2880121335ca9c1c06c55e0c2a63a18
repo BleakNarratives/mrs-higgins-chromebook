@@ -1,0 +1,597 @@
+[09:11:14] === Mrs. Higgins Pipeline START ===
+[09:11:14] Mode: --dry-run | Platform: ALL
+[09:11:14] --- 1/5 Front Desk Lady ---
+[LOADED] adversarial_shield_agent.json
+[LOADED] android_dev_environment.json
+[LOADED] askhole.json
+[LOADED] askhole_ai.json
+[LOADED] asset_recovery_optimizer.json
+[LOADED] business_scout.json
+[LOADED] capitulation_prediction_engine.json
+[LOADED] code_city_apocalypse.json
+[LOADED] code_city_blue_beta.json
+[LOADED] codesleuth.json
+[LOADED] compliance_auditor_agent.json
+[LOADED] context_defrag_engine.json
+[LOADED] docgenius.json
+[LOADED] equinex_forge.json
+[LOADED] hotseat.json
+[LOADED] lightning_payment_integration.json
+[LOADED] local_ai_chatbot_setup.json
+[LOADED] maigret_osint.json
+[LOADED] model_guard_protection.json
+[LOADED] molt_engine.json
+[LOADED] operational_fidelity_monitor.json
+[LOADED] outreach_engine.json
+[LOADED] panic_pipeline.json
+[LOADED] pipeline.json
+[LOADED] pipeline_observability_bridge.json
+[LOADED] predictive_margin_guardian.json
+[LOADED] predictive_market_scout.json
+[LOADED] privacy_guardian_agent.json
+[LOADED] recondog_scanner.json
+[LOADED] regulatory_compliance_guardian.json
+[LOADED] sovereign_dev_profiler.json
+[LOADED] swarm_token_economist.json
+[LOADED] syntax_ai_cli.json
+[LOADED] truthsleuth.json
+[LOADED] vertical_ai.json
+[LOADED] voice_synthesis_agent.json
+
+=== Mrs. Higgins ON DUTY [DRY RUN] — 36 package(s) ===
+
+[ROUTING] Adversarial Shield Agent
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Android Dev Environment Setup
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] AskHole
+  [DRY] → Fiverr
+  [DRY] → Nostr
+
+[ROUTING] AskHole AI Assistant
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Asset Recovery Optimizer
+  [DRY] → CRM
+  [DRY] → Field Recon
+  [DRY] → Financial Dashboards
+
+[ROUTING] Local Business Health Scout
+  [DRY] → Nostr
+  [DRY] → Fiverr
+
+[ROUTING] Capitulation Prediction Engine
+  [DRY] → Nostr
+
+[ROUTING] Code City Apocalypse Scanner
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Code City Blue Beta Access
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] CodeSleuth
+  [DRY] → GitHub Marketplace
+  [DRY] → Direct SaaS
+  [DRY] → API Service
+
+[ROUTING] Compliance Auditor Agent
+  [DRY] → Nostr
+  [DRY] → Upwork
+
+[ROUTING] Context Defragmentation Engine
+  [DRY] → Upwork
+  [DRY] → Nostr
+
+[ROUTING] DocGenius
+  [DRY] → GitHub Marketplace
+  [DRY] → Direct SaaS
+  [DRY] → VS Code Extension
+
+[ROUTING] Equinex Forge
+  [DRY] → Upwork
+
+[ROUTING] HotSeat
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Lightning Payment Integration
+  [DRY] → Fiverr
+  [DRY] → Upwork
+  [DRY] → Nostr
+
+[ROUTING] Local AI Chatbot Setup
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Maigret Intelligence
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Model Guard: LLM Quality Control
+  [DRY] → Development Pipelines
+  [DRY] → CI/CD
+  [DRY] → Local Dev Environments
+
+[ROUTING] Molt Automation Engine
+  [DRY] → Nostr
+  [DRY] → Upwork
+
+[ROUTING] Operational Fidelity Monitor
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] SaaS Outreach Engine
+  [DRY] → Email
+  [DRY] → CRM
+
+[ROUTING] Distress Intel Engine
+  [DRY] → Boardroom
+  [DRY] → Hotseat
+  [DRY] → Scouts
+
+[ROUTING] Supply Chain Ingestion Pipeline
+  [DRY] → Boardroom
+  [DRY] → Hotseat
+  [DRY] → Askhole
+  [DRY] → Scouts
+
+[ROUTING] Pipeline Observability Bridge
+  [DRY] → Nostr
+  [DRY] → Upwork
+
+[ROUTING] Predictive Margin Guardian
+  [DRY] → ERP Integrations
+  [DRY] → Operational Dashboards
+
+[ROUTING] Predictive Market Scout
+  [DRY] → Nostr
+  [DRY] → Upwork
+
+[ROUTING] Privacy Guardian Agent
+  [DRY] → Fiverr
+  [DRY] → Nostr
+
+[ROUTING] ReconDog Security
+  [DRY] → Fiverr
+  [DRY] → Upwork
+
+[ROUTING] Regulatory Compliance Guardian
+  [DRY] → Enterprise Dashboard
+  [DRY] → Agent Logs
+
+[ROUTING] Sovereign Developer Profiler
+  [DRY] → GitHub
+  [DRY] → LinkedIn
+  [DRY] → Nostr
+
+[ROUTING] Swarm Token Economist
+  [DRY] → Nostr
+  [DRY] → Upwork
+
+[ROUTING] Syntax AI CLI
+  [DRY] → Nostr
+  [DRY] → Upwork
+
+[ROUTING] TruthSleuth Static Analysis Auditor
+  [DRY] → Nostr
+  [DRY] → Fiverr
+
+[ROUTING] Vertical AI
+  [DRY] → Upwork
+  [DRY] → Nostr
+
+[ROUTING] Voice Synthesis Agent
+  [DRY] → Fiverr
+  [DRY] → Nostr
+
+[DONE] 79 route(s) logged → front_desk_routing_log.json
+[09:11:15] --- 2/5 Bookkeeper ---
+/storage/emulated/0/RootBase/mrs_higgins_saas/bookkeeper.py:46: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": datetime.utcnow().isoformat() + "Z",
+  [SKIP] Adversarial Shield Agent / Fiverr — no hash
+  [SKIP] Adversarial Shield Agent / Upwork — no hash
+  [SKIP] Android Dev Environment Setup / Fiverr — no hash
+  [SKIP] Android Dev Environment Setup / Upwork — no hash
+  [SKIP] AskHole / Fiverr — no hash
+  [SKIP] AskHole / Nostr — no hash
+  [SKIP] AskHole AI Assistant / Fiverr — no hash
+  [SKIP] AskHole AI Assistant / Upwork — no hash
+  [SKIP] Asset Recovery Optimizer / CRM — no hash
+  [SKIP] Asset Recovery Optimizer / Field Recon — no hash
+  [SKIP] Asset Recovery Optimizer / Financial Dashboards — no hash
+  [SKIP] Local Business Health Scout / Nostr — no hash
+  [SKIP] Local Business Health Scout / Fiverr — no hash
+  [SKIP] Capitulation Prediction Engine / Nostr — no hash
+  [SKIP] Code City Apocalypse Scanner / Fiverr — no hash
+  [SKIP] Code City Apocalypse Scanner / Upwork — no hash
+  [SKIP] Code City Blue Beta Access / Fiverr — no hash
+  [SKIP] Code City Blue Beta Access / Upwork — no hash
+  [SKIP] CodeSleuth / GitHub Marketplace — no hash
+  [SKIP] CodeSleuth / Direct SaaS — no hash
+  [SKIP] CodeSleuth / API Service — no hash
+  [SKIP] Compliance Auditor Agent / Nostr — no hash
+  [SKIP] Compliance Auditor Agent / Upwork — no hash
+  [SKIP] Context Defragmentation Engine / Upwork — no hash
+  [SKIP] Context Defragmentation Engine / Nostr — no hash
+  [SKIP] DocGenius / GitHub Marketplace — no hash
+  [SKIP] DocGenius / Direct SaaS — no hash
+  [SKIP] DocGenius / VS Code Extension — no hash
+  [SKIP] Equinex Forge / Upwork — no hash
+  [SKIP] HotSeat / Fiverr — no hash
+  [SKIP] HotSeat / Upwork — no hash
+  [SKIP] Lightning Payment Integration / Fiverr — no hash
+  [SKIP] Lightning Payment Integration / Upwork — no hash
+  [SKIP] Lightning Payment Integration / Nostr — no hash
+  [SKIP] Local AI Chatbot Setup / Fiverr — no hash
+  [SKIP] Local AI Chatbot Setup / Upwork — no hash
+  [SKIP] Maigret Intelligence / Fiverr — no hash
+  [SKIP] Maigret Intelligence / Upwork — no hash
+  [SKIP] Model Guard: LLM Quality Control / Development Pipelines — no hash
+  [SKIP] Model Guard: LLM Quality Control / CI/CD — no hash
+  [SKIP] Model Guard: LLM Quality Control / Local Dev Environments — no hash
+  [SKIP] Molt Automation Engine / Nostr — no hash
+  [SKIP] Molt Automation Engine / Upwork — no hash
+  [SKIP] Operational Fidelity Monitor / Fiverr — no hash
+  [SKIP] Operational Fidelity Monitor / Upwork — no hash
+  [SKIP] SaaS Outreach Engine / Email — no hash
+  [SKIP] SaaS Outreach Engine / CRM — no hash
+  [SKIP] Distress Intel Engine / Boardroom — no hash
+  [SKIP] Distress Intel Engine / Hotseat — no hash
+  [SKIP] Distress Intel Engine / Scouts — no hash
+  [SKIP] Supply Chain Ingestion Pipeline / Boardroom — no hash
+  [SKIP] Supply Chain Ingestion Pipeline / Hotseat — no hash
+  [SKIP] Supply Chain Ingestion Pipeline / Askhole — no hash
+  [SKIP] Supply Chain Ingestion Pipeline / Scouts — no hash
+  [SKIP] Pipeline Observability Bridge / Nostr — no hash
+  [SKIP] Pipeline Observability Bridge / Upwork — no hash
+  [SKIP] Predictive Margin Guardian / ERP Integrations — no hash
+  [SKIP] Predictive Margin Guardian / Operational Dashboards — no hash
+  [SKIP] Predictive Market Scout / Nostr — no hash
+  [SKIP] Predictive Market Scout / Upwork — no hash
+  [SKIP] Privacy Guardian Agent / Fiverr — no hash
+  [SKIP] Privacy Guardian Agent / Nostr — no hash
+  [SKIP] ReconDog Security / Fiverr — no hash
+  [SKIP] ReconDog Security / Upwork — no hash
+  [SKIP] Regulatory Compliance Guardian / Enterprise Dashboard — no hash
+  [SKIP] Regulatory Compliance Guardian / Agent Logs — no hash
+  [SKIP] Sovereign Developer Profiler / GitHub — no hash
+  [SKIP] Sovereign Developer Profiler / LinkedIn — no hash
+  [SKIP] Sovereign Developer Profiler / Nostr — no hash
+  [SKIP] Swarm Token Economist / Nostr — no hash
+  [SKIP] Swarm Token Economist / Upwork — no hash
+  [SKIP] Syntax AI CLI / Nostr — no hash
+  [SKIP] Syntax AI CLI / Upwork — no hash
+  [SKIP] TruthSleuth Static Analysis Auditor / Nostr — no hash
+  [SKIP] TruthSleuth Static Analysis Auditor / Fiverr — no hash
+  [SKIP] Vertical AI / Upwork — no hash
+  [SKIP] Vertical AI / Nostr — no hash
+  [SKIP] Voice Synthesis Agent / Fiverr — no hash
+  [SKIP] Voice Synthesis Agent / Nostr — no hash
+
+[DONE] settled=0 pending=0 untracked=79
+       → income_summary.json
+[09:11:15] --- 3/5 The Closer ---
+/storage/emulated/0/RootBase/mrs_higgins_saas/the_closer.py:54: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  f"Time: `{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC`"
+[SOURCE] income_summary.json — 79 actionable entries
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Adversarial Shield Agent / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Adversarial Shield Agent / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Android Dev Environment Setup / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Android Dev Environment Setup / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] AskHole / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] AskHole / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] AskHole AI Assistant / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] AskHole AI Assistant / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Asset Recovery Optimizer / CRM
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Asset Recovery Optimizer / Field Recon
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Asset Recovery Optimizer / Financial Dashboards
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Local Business Health Scout / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Local Business Health Scout / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Capitulation Prediction Engine / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Code City Apocalypse Scanner / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Code City Apocalypse Scanner / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Code City Blue Beta Access / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Code City Blue Beta Access / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] CodeSleuth / GitHub Marketplace
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] CodeSleuth / Direct SaaS
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] CodeSleuth / API Service
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Compliance Auditor Agent / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Compliance Auditor Agent / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Context Defragmentation Engine / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Context Defragmentation Engine / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] DocGenius / GitHub Marketplace
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] DocGenius / Direct SaaS
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] DocGenius / VS Code Extension
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Equinex Forge / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] HotSeat / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] HotSeat / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Lightning Payment Integration / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Lightning Payment Integration / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Lightning Payment Integration / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Local AI Chatbot Setup / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Local AI Chatbot Setup / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Maigret Intelligence / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Maigret Intelligence / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Model Guard: LLM Quality Control / Development Pipelines
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Model Guard: LLM Quality Control / CI/CD
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Model Guard: LLM Quality Control / Local Dev Environments
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Molt Automation Engine / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Molt Automation Engine / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Operational Fidelity Monitor / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Operational Fidelity Monitor / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] SaaS Outreach Engine / Email
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] SaaS Outreach Engine / CRM
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Distress Intel Engine / Boardroom
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Distress Intel Engine / Hotseat
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Distress Intel Engine / Scouts
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Supply Chain Ingestion Pipeline / Boardroom
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Supply Chain Ingestion Pipeline / Hotseat
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Supply Chain Ingestion Pipeline / Askhole
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Supply Chain Ingestion Pipeline / Scouts
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Pipeline Observability Bridge / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Pipeline Observability Bridge / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Predictive Margin Guardian / ERP Integrations
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Predictive Margin Guardian / Operational Dashboards
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Predictive Market Scout / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Predictive Market Scout / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Privacy Guardian Agent / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Privacy Guardian Agent / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] ReconDog Security / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] ReconDog Security / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Regulatory Compliance Guardian / Enterprise Dashboard
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Regulatory Compliance Guardian / Agent Logs
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Sovereign Developer Profiler / GitHub
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Sovereign Developer Profiler / LinkedIn
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Sovereign Developer Profiler / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Swarm Token Economist / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Swarm Token Economist / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Syntax AI CLI / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Syntax AI CLI / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] TruthSleuth Static Analysis Auditor / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] TruthSleuth Static Analysis Auditor / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Vertical AI / Upwork
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Vertical AI / Nostr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Voice Synthesis Agent / Fiverr
+  [Telegram] Send failed: 'ascii' codec can't encode character '\xc7' in position 9: ordinal not in range(128)
+  [FAIL] Voice Synthesis Agent / Nostr
+
+[DONE] 0 message(s) fired → closer_sent.json
+[09:11:16] --- 4/5 Copywriter ---
+[COPYWRITER] model=llama3.2:1b packages=36
+  [Fiverr] Adversarial Shield Agent... [DRY]
+  [Upwork] Adversarial Shield Agent... [DRY]
+  [Fiverr] Android Dev Environment Setup... [DRY]
+  [Upwork] Android Dev Environment Setup... [DRY]
+  [Fiverr] AskHole... [DRY]
+  [Nostr] AskHole... [DRY]
+  [Fiverr] AskHole AI Assistant... [DRY]
+  [Upwork] AskHole AI Assistant... [DRY]
+  [CRM] Asset Recovery Optimizer... [DRY]
+  [Field Recon] Asset Recovery Optimizer... [DRY]
+  [Financial Dashboards] Asset Recovery Optimizer... [DRY]
+  [Nostr] Local Business Health Scout... [DRY]
+  [Fiverr] Local Business Health Scout... [DRY]
+  [Nostr] Capitulation Prediction Engine... [DRY]
+  [Fiverr] Code City Apocalypse Scanner... [DRY]
+  [Upwork] Code City Apocalypse Scanner... [DRY]
+  [Fiverr] Code City Blue Beta Access... [DRY]
+  [Upwork] Code City Blue Beta Access... [DRY]
+  [GitHub Marketplace] CodeSleuth... [DRY]
+  [Direct SaaS] CodeSleuth... [DRY]
+  [API Service] CodeSleuth... [DRY]
+  [Nostr] Compliance Auditor Agent... [DRY]
+  [Upwork] Compliance Auditor Agent... [DRY]
+  [Upwork] Context Defragmentation Engine... [DRY]
+  [Nostr] Context Defragmentation Engine... [DRY]
+  [GitHub Marketplace] DocGenius... [DRY]
+  [Direct SaaS] DocGenius... [DRY]
+  [VS Code Extension] DocGenius... [DRY]
+  [Upwork] Equinex Forge... [DRY]
+  [Fiverr] HotSeat... [DRY]
+  [Upwork] HotSeat... [DRY]
+  [Fiverr] Lightning Payment Integration... [DRY]
+  [Upwork] Lightning Payment Integration... [DRY]
+  [Nostr] Lightning Payment Integration... [DRY]
+  [Fiverr] Local AI Chatbot Setup... [DRY]
+  [Upwork] Local AI Chatbot Setup... [DRY]
+  [Fiverr] Maigret Intelligence... [DRY]
+  [Upwork] Maigret Intelligence... [DRY]
+  [Development Pipelines] Model Guard: LLM Quality Control... [DRY]
+  [CI/CD] Model Guard: LLM Quality Control... [DRY]
+  [Local Dev Environments] Model Guard: LLM Quality Control... [DRY]
+  [Nostr] Molt Automation Engine... [DRY]
+  [Upwork] Molt Automation Engine... [DRY]
+  [Fiverr] Operational Fidelity Monitor... [DRY]
+  [Upwork] Operational Fidelity Monitor... [DRY]
+  [Email] SaaS Outreach Engine... [DRY]
+  [CRM] SaaS Outreach Engine... [DRY]
+  [Boardroom] Distress Intel Engine... [DRY]
+  [Hotseat] Distress Intel Engine... [DRY]
+  [Scouts] Distress Intel Engine... [DRY]
+  [Boardroom] Supply Chain Ingestion Pipeline... [DRY]
+  [Hotseat] Supply Chain Ingestion Pipeline... [DRY]
+  [Askhole] Supply Chain Ingestion Pipeline... [DRY]
+  [Scouts] Supply Chain Ingestion Pipeline... [DRY]
+  [Nostr] Pipeline Observability Bridge... [DRY]
+  [Upwork] Pipeline Observability Bridge... [DRY]
+  [ERP Integrations] Predictive Margin Guardian... [DRY]
+  [Operational Dashboards] Predictive Margin Guardian... [DRY]
+  [Nostr] Predictive Market Scout... [DRY]
+  [Upwork] Predictive Market Scout... [DRY]
+  [Fiverr] Privacy Guardian Agent... [DRY]
+  [Nostr] Privacy Guardian Agent... [DRY]
+  [Fiverr] ReconDog Security... [DRY]
+  [Upwork] ReconDog Security... [DRY]
+  [Enterprise Dashboard] Regulatory Compliance Guardian... [DRY]
+  [Agent Logs] Regulatory Compliance Guardian... [DRY]
+  [GitHub] Sovereign Developer Profiler... [DRY]
+  [LinkedIn] Sovereign Developer Profiler... [DRY]
+  [Nostr] Sovereign Developer Profiler... [DRY]
+  [Nostr] Swarm Token Economist... [DRY]
+  [Upwork] Swarm Token Economist... [DRY]
+  [Nostr] Syntax AI CLI... [DRY]
+  [Upwork] Syntax AI CLI... [DRY]
+  [Nostr] TruthSleuth Static Analysis Auditor... [DRY]
+  [Fiverr] TruthSleuth Static Analysis Auditor... [DRY]
+  [Upwork] Vertical AI... [DRY]
+  [Nostr] Vertical AI... [DRY]
+  [Fiverr] Voice Synthesis Agent... [DRY]
+  [Nostr] Voice Synthesis Agent... [DRY]
+
+[DONE] Copy files in ./copy_output/
+[09:11:16] --- 5/5 Scout ---
+Traceback (most recent call last):
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/scout.py", line 154, in <module>
+    main()
+    ~~~~^^
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/scout.py", line 151, in main
+    run_once(headless=headless, packages_dir=args.packages_dir)
+    ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/scout.py", line 115, in run_once
+    driver    = build_driver(headless=headless)
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/scout.py", line 63, in build_driver
+    return webdriver.Chrome(options=opts)
+           ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/chrome/webdriver.py", line 76, in __init__
+    RemoteWebDriver.__init__(
+    ~~~~~~~~~~~~~~~~~~~~~~~~^
+        self,
+        ^^^^^
+    ...<2 lines>...
+            keep_alive=keep_alive),
+            ^^^^^^^^^^^^^^^^^^^^^^^
+        desired_capabilities=desired_capabilities)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 157, in __init__
+    self.start_session(capabilities, browser_profile)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 252, in start_session
+    response = self.execute(Command.NEW_SESSION, parameters)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ~~~~~~~~~~~~~~~~~~~~~~~~^
+        method, url, fields=fields, headers=headers, **urlopen_kw
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 448, in urlopen
+    conn = self.connection_from_host(u.host, port=u.port, scheme=u.scheme)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 319, in connection_from_host
+    return self.connection_from_context(request_context)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 344, in connection_from_context
+    return self.connection_from_pool_key(pool_key, request_context=request_context)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 367, in connection_from_pool_key
+    pool = self._new_pool(scheme, host, port, request_context=request_context)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/poolmanager.py", line 281, in _new_pool
+    return pool_cls(host, port, **request_context)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 193, in __init__
+    timeout = Timeout.from_float(timeout)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/util/timeout.py", line 186, in from_float
+    return Timeout(read=timeout, connect=timeout)
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/util/timeout.py", line 115, in __init__
+    self._connect = self._validate_timeout(connect, "connect")
+                    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/util/timeout.py", line 152, in _validate_timeout
+    raise ValueError(
+    ...<2 lines>...
+    ) from None
+ValueError: Timeout value connect was <object object at 0x7335750660>, but it must be an int, float or None.
+[09:11:18] WARN: scout.py failed (non-fatal)
+[09:11:18] === Pipeline COMPLETE → ./logs/run_20260604_091114.log ===

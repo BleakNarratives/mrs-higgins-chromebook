@@ -1,0 +1,14 @@
+{
+  "name": "Pipeline Observability Bridge",
+  "price_sats": 25000,
+  "tagline": "Telemetry and trace collection for agent pipelines.",
+  "description": "Collects execution traces, metrics, and alerts so local or remote agent pipelines are easier to debug and tune.",
+  "features": [
+    "Real-time execution telemetry",
+    "Automated error tracing and alerting",
+    "Pipeline latency and performance analytics"
+  ],
+  "pricing_model": "Monthly enterprise subscription",
+  "estimated_roi_per_business": "Shortens debugging loops and makes failures visible earlier",
+  "target_platforms": ["Nostr", "Upwork"]
+}

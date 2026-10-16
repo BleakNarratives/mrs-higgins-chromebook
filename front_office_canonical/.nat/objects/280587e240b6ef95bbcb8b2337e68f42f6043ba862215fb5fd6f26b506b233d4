@@ -1,0 +1,14 @@
+{
+  "name": "Adversarial Shield Agent",
+  "price_sats": 48000,
+  "tagline": "Real-time prompt injection defense and payload hardening for edge agents.",
+  "description": "Autonomous agents parsing untrusted user inputs or scraping the web are highly vulnerable to hidden prompt injections (e.g., hidden instructions telling your agent to dump its database). This defensive proxy analyzes inbound data streams before your core agent consumes them, neutralizing rogue execution strings.",
+  "features": [
+    "Indirect prompt injection interception",
+    "Input payload detoxification",
+    "Autonomous firewall rules for LLM instructions"
+  ],
+  "pricing_model": "Subscription per active deployment endpoint",
+  "estimated_roi_per_business": "Prevents unauthorized data exfiltration and agent hijackings",
+  "target_platforms": ["Fiverr", "Upwork"]
+}

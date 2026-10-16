@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE FRONT DESK - Mrs. Higgins</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="office-background">
+        <div class="wood-paneling">
+            <!-- Left Side Decorations -->
+            <div class="decoration left-side">
+                <div class="fly-swatter"></div>
+                <div class="rotary-phone"></div>
+            </div>
+
+            <!-- Main CRT Monitor -->
+            <div class="monitor-container">
+                <div class="monitor-bezel">
+                    <div class="crt-screen">
+                        <div class="scanlines"></div>
+                        <div class="flicker"></div>
+                        <div class="terminal-content">
+                            <header>
+                                <div class="marquee-container">
+                                    <div id="marquee" class="marquee-text">INITIALIZING MRS. HIGGINS... STAND BY...</div>
+                                </div>
+                            </header>
+
+                            <main>
+                                <div class="tab-container">
+                                    <button class="tab-link active" onclick="openTab(event, 'briefing')">BRIEFING</button>
+                                    <button class="tab-link" onclick="openTab(event, 'ledger')">THE LEDGER</button>
+                                    <button class="tab-link" onclick="openTab(event, 'logs')">SYSTEM LOGS</button>
+                                </div>
+
+                                <div id="briefing" class="tab-content active">
+                                    <pre id="briefing-output">LOADING DAILY BRIEFING...</pre>
+                                </div>
+
+                                <div id="ledger" class="tab-content">
+                                    <div id="ledger-data">LOADING LEDGER...</div>
+                                </div>
+
+                                <div id="logs" class="tab-content">
+                                    <pre id="logs-output">LOADING LOGS...</pre>
+                                </div>
+                            </main>
+
+                            <footer>
+                                <button id="ship-button" class="big-red-button" onclick="shipIt()">SHIP IT!</button>
+                                <div id="status-indicator">STATUS: READY</div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Side Decorations -->
+            <div class="decoration right-side">
+                <div class="ashtray">
+                    <div class="cigarette">
+                        <div class="smoke"></div>
+                    </div>
+                </div>
+                <div class="mothball-jar">
+                    <div class="jar-content">MOTHBALLS</div>
+                </div>
+                <div class="glasses"></div>
+            </div>
+
+            <!-- Coffee Stains -->
+            <div class="coffee-stain" style="top: 10%; left: 5%;"></div>
+            <div class="coffee-stain" style="bottom: 5%; right: 10%;"></div>
+            <div class="coffee-stain" style="bottom: 20%; left: 15%;"></div>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>

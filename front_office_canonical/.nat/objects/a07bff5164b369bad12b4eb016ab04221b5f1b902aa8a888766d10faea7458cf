@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'Terminal';
+    src: local('Courier New'), local('Courier');
+}
+
+:root {
+    --crt-amber: #ffb000;
+    --crt-bg: #1a0f00;
+    --wood-dark: #3d2b1f;
+    --wood-light: #5c4033;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+    font-family: 'Terminal', monospace;
+}
+
+.office-background {
+    width: 100%;
+    height: 100%;
+    background: var(--wood-dark);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.wood-paneling {
+    width: 100%;
+    height: 100%;
+    background-image:
+        linear-gradient(90deg, transparent 50%, rgba(0,0,0,0.1) 50%),
+        repeating-linear-gradient(var(--wood-dark), var(--wood-dark) 20px, var(--wood-light) 21px, var(--wood-dark) 22px);
+    background-size: 100px 100%, 100% 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* CRT Monitor */
+.monitor-container {
+    width: 800px;
+    height: 600px;
+    background: #444;
+    border-radius: 40px;
+    padding: 30px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8), inset 0 0 20px rgba(255,255,255,0.2);
+    position: relative;
+    z-index: 10;
+}
+
+.monitor-bezel {
+    width: 100%;
+    height: 100%;
+    background: #222;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: inset 0 0 30px #000;
+}
+
+.crt-screen {
+    width: 100%;
+    height: 100%;
+    background: var(--crt-bg);
+    border-radius: 50% / 10%;
+    position: relative;
+    overflow: hidden;
+    border: 2px solid #333;
+    color: var(--crt-amber);
+    display: flex;
+    flex-direction: column;
+}
+
+.scanlines {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        rgba(18, 16, 16, 0) 50%,
+        rgba(0, 0, 0, 0.25) 50%
+    );
+    background-size: 100% 4px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.flicker {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 176, 0, 0.02);
+    z-index: 3;
+    pointer-events: none;
+    animation: flicker 0.15s infinite;
+}
+
+@keyframes flicker {
+    0% { opacity: 0.1; }
+    50% { opacity: 0.2; }
+    100% { opacity: 0.1; }
+}
+
+.terminal-content {
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.marquee-container {
+    background: #000;
+    border: 1px solid var(--crt-amber);
+    padding: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.marquee-text {
+    white-space: nowrap;
+    animation: marquee 10s linear infinite;
+    font-size: 1.2em;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+
+/* Tabs */
+.tab-container {
+    display: flex;
+    border-bottom: 1px solid var(--crt-amber);
+    margin-bottom: 10px;
+}
+
+.tab-link {
+    background: transparent;
+    border: none;
+    color: var(--crt-amber);
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1em;
+    opacity: 0.7;
+}
+
+.tab-link.active {
+    opacity: 1;
+    border: 1px solid var(--crt-amber);
+    border-bottom: 1px solid var(--crt-bg);
+    margin-bottom: -1px;
+}
+
+.tab-content {
+    display: none;
+    flex-grow: 1;
+    overflow-y: auto;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Big Red Button */
+.big-red-button {
+    background: #b00;
+    color: white;
+    border: 5px solid #800;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-weight: bold;
+    font-size: 1.5em;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #600;
+    margin-top: 10px;
+    align-self: center;
+    transition: all 0.1s;
+}
+
+.big-red-button:active {
+    transform: translateY(3px);
+    box-shadow: 0 2px 0 #600;
+}
+
+/* Decorations */
+.decoration {
+    position: absolute;
+    z-index: 5;
+}
+
+.left-side { left: 50px; top: 100px; }
+.right-side { right: 50px; bottom: 50px; }
+
+/* Cigarette & Ashtray */
+.ashtray {
+    width: 120px;
+    height: 30px;
+    background: #888;
+    border-radius: 50%;
+    border: 4px solid #666;
+    position: relative;
+}
+
+.cigarette {
+    width: 60px;
+    height: 8px;
+    background: #fff;
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    transform: rotate(-10deg);
+    border-radius: 2px;
+}
+
+.cigarette::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    width: 15px;
+    height: 100%;
+    background: #f80;
+    border-radius: 0 2px 2px 0;
+}
+
+.smoke {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 20px;
+    height: 40px;
+    background: rgba(200, 200, 200, 0.3);
+    filter: blur(5px);
+    animation: smoke 3s infinite ease-in-out;
+}
+
+@keyframes smoke {
+    0% { transform: translateY(0) scale(1); opacity: 0; }
+    50% { transform: translateY(-20px) scale(1.5); opacity: 0.5; }
+    100% { transform: translateY(-40px) scale(2); opacity: 0; }
+}
+
+/* Mothball Jar */
+.mothball-jar {
+    width: 80px;
+    height: 100px;
+    background: rgba(200, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 10px 10px 5px 5px;
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 0.7em;
+}
+
+/* Fly Swatter */
+.fly-swatter {
+    width: 100px;
+    height: 200px;
+    position: relative;
+}
+
+.fly-swatter::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 80px;
+    height: 100px;
+    background: rgba(0, 100, 255, 0.3);
+    border: 2px solid #04a;
+    background-image: repeating-linear-gradient(0deg, transparent, transparent 4px, #04a 5px),
+                      repeating-linear-gradient(90deg, transparent, transparent 4px, #04a 5px);
+}
+
+.fly-swatter::after {
+    content: '';
+    position: absolute;
+    top: 100px;
+    left: 35px;
+    width: 10px;
+    height: 150px;
+    background: #888;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Coffee Stain */
+.coffee-stain {
+    position: absolute;
+    width: 150px;
+    height: 140px;
+    background: rgba(60, 30, 10, 0.4);
+    border-radius: 50%;
+    filter: blur(10px);
+    transform: scaleX(1.2);
+    pointer-events: none;
+}
+
+/* Glasses */
+.glasses {
+    width: 120px;
+    height: 40px;
+    border: 4px solid #000;
+    border-radius: 10px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.glasses::before, .glasses::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 35px;
+    border: 3px solid #000;
+    border-radius: 5px;
+}
+
+.glasses::before { left: 0; }
+.glasses::after { right: 0; }
+.coffee-stain::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border: 3px solid rgba(60, 30, 10, 0.6);
+    border-radius: 50%;
+}

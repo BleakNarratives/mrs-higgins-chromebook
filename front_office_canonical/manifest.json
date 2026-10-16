@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "MrsHiggins_Unified",
+    "path": "/storage/emulated/0/RootBase/MrsHiggins_Unified",
+    "languages": {
+      "python": 11,
+      "css": 1,
+      "javascript": 1,
+      "html": 1
+    },
+    "entrypoints": [
+      "bookkeeper.py"
+    ],
+    "package_json": false,
+    "requirements": 0,
+    "readme_excerpt": "# Vertical AI \u2014 Passive Income Pipeline\n### moto-2024-sd-r26\n**Author:** BleakNarratives  \n**Stack:** Python \u00b7 Lightning Network \u00b7 Voltage Payments \u00b7 Ollama \u00b7 Termux/aarch64  \n**Path:** `/storage/ED7B-AD5A/root_2026/moto-2024-sd-r26/`",
+    "last_modified": "2026-06-22T04:09:46.242504"
+  },
+  "runbook": {
+    "commands": [
+      "python bookkeeper.py"
+    ],
+    "env": [],
+    "notes": []
+  },
+  "bard_note": "Polyglot chaos detected. Enjoy merging contexts. (Bardildo: harsh truth incoming)"
+}

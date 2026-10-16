@@ -1,0 +1,14 @@
+{
+  "name": "Supply Chain Ingestion Pipeline",
+  "price_sats": 55000,
+  "tagline": "Automated monitoring and intelligence routing for supply chain disruptions.",
+  "description": "Ingests global news signals regarding supply chain risks and distributes actionable intelligence to relevant operational nodes.",
+  "features": [
+    "Automated signal ingestion from news sources",
+    "Intelligence distribution to boardroom and field scouts",
+    "Fallback mock data ingestion for resilient operations"
+  ],
+  "pricing_model": "Monthly subscription",
+  "estimated_roi_per_business": "Proactive supply chain disruption risk management",
+  "target_platforms": ["Boardroom", "Hotseat", "Askhole", "Scouts"]
+}

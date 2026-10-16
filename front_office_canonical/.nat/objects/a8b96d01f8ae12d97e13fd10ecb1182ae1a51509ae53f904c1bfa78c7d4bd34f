@@ -1,0 +1,20 @@
+[09:08:39] === Mrs. Higgins Pipeline START ===
+[09:08:39] Mode: --dry-run | Platform: ALL
+[09:08:39] --- 1/5 Front Desk Lady ---
+Traceback (most recent call last):
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/front_desk_lady.py", line 163, in <module>
+    main()
+    ~~~~^^
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/front_desk_lady.py", line 157, in main
+    fdl = FrontDeskLady(lightning_id, voltage_api_key, dry_run=args.dry_run)
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/front_desk_lady.py", line 31, in __init__
+    self.state_manager = StateManager("mrs_higgins_saas/state/pipeline_state.json")
+                         ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/storage/emulated/0/RootBase/lucrative_engines/state_manager.py", line 11, in __init__
+    self.save_state({})
+    ~~~~~~~~~~~~~~~^^^^
+  File "/storage/emulated/0/RootBase/lucrative_engines/state_manager.py", line 14, in save_state
+    with open(self.state_file, "w") as f:
+         ~~~~^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'mrs_higgins_saas/state/pipeline_state.json'
+[09:08:40] FATAL: front_desk_lady.py failed

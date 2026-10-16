@@ -1,0 +1,80 @@
+{
+  "name": "AI Workforce Integration Consultancy",
+  "tagline": "Complete AI integration solutions for workforce optimization across all industries",
+  "pricing_model": "Project-based + ongoing support via Lightning",
+  "estimated_roi_per_business": "End-to-end AI integration consulting. Typical ROI: 300-1000% annually through efficiency gains, cost reduction, and new revenue streams.",
+  "target_platforms": ["Direct", "Nostr", "LinkedIn", "Consulting"],
+  "price_sats": 500000,
+  "url": "https://ai-workforce-integration.onrender.com",
+  "description": "AI Workforce Integration Consultancy provides complete AI adoption strategies for businesses. From initial assessment through implementation and training, we transform your workforce with AI-powered tools and automation. Specializing in retail, industry, legal, medical, and service sectors.",
+  "features": [
+    "Comprehensive AI readiness assessment",
+    "Custom AI solution design",
+    "Implementation and deployment",
+    "Staff training and change management",
+    "Ongoing optimization",
+    "Performance tracking and ROI measurement",
+    "Regulatory compliance guidance",
+    "Ethical AI framework",
+    "Zero KYC - peer-to-peer payments",
+    "Lightning Network contracts"
+  ],
+  "services": {
+    "assessment": {
+      "duration": "2 weeks",
+      "deliverables": ["AI readiness score", "Pain point analysis", "Opportunity map", "ROI projections"],
+      "price_sats": 100000
+    },
+    "design": {
+      "duration": "4 weeks",
+      "deliverables": ["Custom AI architecture", "Integration roadmap", "Technology stack recommendation", "Budget estimate"],
+      "price_sats": 250000
+    },
+    "implementation": {
+      "duration": "8-12 weeks",
+      "deliverables": ["Deployed AI systems", "Staff training", "Documentation", "Support plan"],
+      "price_sats": 500000
+    },
+    "optimization": {
+      "duration": "Ongoing",
+      "deliverables": ["Monthly performance reports", "Continuous improvement", "New feature integration", "ROI tracking"],
+      "price_sats": 100000
+    }
+  },
+  "industry_solutions": {
+    "retail": {
+      "ai_applications": ["inventory prediction", "personalized recommendations", "dynamic pricing", "chatbot support", "fraud detection"],
+      "avg_roi": "200-400%",
+      "implementation_time": "6-8 weeks"
+    },
+    "manufacturing": {
+      "ai_applications": ["predictive maintenance", "quality control vision", "supply chain optimization", "energy management", "demand forecasting"],
+      "avg_roi": "300-600%",
+      "implementation_time": "8-12 weeks"
+    },
+    "legal": {
+      "ai_applications": ["document analysis", "case prediction", "contract review", "e-discovery", "compliance monitoring"],
+      "avg_roi": "400-800%",
+      "implementation_time": "4-6 weeks"
+    },
+    "medical": {
+      "ai_applications": ["diagnostic assistance", "patient triage", "medical imaging analysis", "drug interaction checking", "research acceleration"],
+      "avg_roi": "500-1000%+",
+      "implementation_time": "10-16 weeks"
+    }
+  },
+  "technical_details": {
+    "architecture": "Modular AI integration framework",
+    "supported_technologies": ["LLMs", "Computer Vision", "Predictive Analytics", "NLP", "RPA"],
+    "autonomy_level": "80% (human oversight required for ethics)",
+    "compliance": ["GDPR", "HIPAA (medical)", "Industry-specific regulations"],
+    "requirements": ["Cloud/on-prem infrastructure", "Data access", "Staff cooperation"]
+  },
+  "income_potential": {
+    "monthly_estimate_sats": "5000000-20000000",
+    "break_even_days": 60,
+    "scalability_factor": "Exponential with client base",
+    "client_value": "$50K-500K annual value per client"
+  },
+  "status": "production_ready"
+}

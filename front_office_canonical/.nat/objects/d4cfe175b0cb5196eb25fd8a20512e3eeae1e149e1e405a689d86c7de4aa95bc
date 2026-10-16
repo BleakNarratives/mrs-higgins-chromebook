@@ -1,0 +1,14 @@
+{
+  "name": "SaaS Outreach Engine",
+  "price_sats": 35000,
+  "tagline": "Automated email pitch engine for high-value leads.",
+  "description": "Orchestrates personalized email outreach campaigns based on real-time market signals. Tailors messaging for real estate or equity capitulation leads automatically.",
+  "features": [
+    "Context-aware automated pitch generation",
+    "Template-based messaging for diverse market vectors",
+    "SMTP integration with draft-only fallback mode"
+  ],
+  "pricing_model": "Flat fee per campaign iteration",
+  "estimated_roi_per_business": "Reduces lead-to-outreach latency",
+  "target_platforms": ["Email", "CRM"]
+}

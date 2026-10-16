@@ -1,0 +1,16 @@
+{
+  "name": "ModMind Developer Profiler",
+  "tagline": "Turn your chaotic repo history into an elite career asset.",
+  "description": "Don't just write code—market it. This agentic service scrapes your technical footprint to build a high-impact 'Hype Profile' and proactively identifies high-fit, elite engineering companies for you.",
+  "features": [
+    "Autonomous git footprint analysis",
+    "High-impact pitch generation",
+    "Company fit scoring and matching",
+    "Automated outreach dispatch"
+  ],
+  "target_platforms": ["GitHub", "LinkedIn", "Nostr"],
+  "pricing_model": "Success-based: 10% of first month salary upon placement or $299 flat fee for profile suite",
+  "delivery_days": 2,
+  "category": "Career Accelerator",
+  "tags": ["agentic", "hiring", "dev-branding", "career-growth", "automation"]
+}

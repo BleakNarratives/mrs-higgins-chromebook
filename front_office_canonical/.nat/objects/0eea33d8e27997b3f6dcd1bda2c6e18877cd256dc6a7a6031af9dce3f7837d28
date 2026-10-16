@@ -1,0 +1,160 @@
+# Author: BleakNarratives
+# Filename: scout.py
+# Path: G:\Foxwood\moto-2024-sd-r26\scout.py
+
+import json
+import os
+import re
+import time
+import argparse
+import urllib.request
+import urllib.parse
+import urllib.error
+from datetime import datetime
+
+# FIX: was `from selenium import Webdriver` — correct import below
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+LEADS_PATH    = "scout_leads.json"
+PACKAGES_DIR  = "./saas_packages"
+QUARANTINE_DIR = "./saas_quarantine"
+POLL_INTERVAL = int(os.getenv("SCOUT_INTERVAL", "300"))  # seconds
+
+# Boards: each entry is (name, search_url_template)
+# {query} is replaced with URL-encoded keyword
+BOARDS = [
+    ("Upwork",  "https://www.upwork.com/search/jobs/?q={query}&sort=recency"),
+    ("Fiverr",  "https://www.fiverr.com/search/gigs?query={query}"),
+]
+
+def load_packages(packages_dir=PACKAGES_DIR):
+    pkgs = []
+    if not os.path.exists(packages_dir):
+        return pkgs
+    quarantined = set()
+    if os.path.exists(QUARANTINE_DIR):
+        quarantined = set(os.listdir(QUARANTINE_DIR))
+    for fname in sorted(os.listdir(packages_dir)):
+        if fname in quarantined:
+            continue
+        if fname.endswith(".json"):
+            with open(os.path.join(packages_dir, fname), "r") as f:
+                pkgs.append(json.load(f))
+    return pkgs
+
+def extract_keywords(package):
+    """Pull searchable terms from a package definition."""
+    words = set()
+    for field in ("name", "tagline", "description"):
+        val = package.get(field, "")
+        words.update(re.findall(r'\b\w{4,}\b', val.lower()))
+    # strip noise
+    noise = {"with", "that", "this", "your", "from", "have", "will", "been", "also", "more"}
+    return list(words - noise)[:5]  # top 5 terms
+
+def build_driver(headless=True):
+    opts = Options()
+    if headless:
+        opts.add_argument("--headless=new")
+    opts.add_argument("--no-sandbox")
+    opts.add_argument("--disable-dev-shm-usage")
+    opts.add_argument("--disable-gpu")
+    opts.add_argument("--window-size=1280,800")
+    opts.add_argument("user-agent=Mozilla/5.0 (Linux; Android 10) AppleWebKit/537.36")
+    # FIX: webdriver.Chrome() not Webdriver.Chrome()
+    return webdriver.Chrome(options=opts)
+
+def scrape_board(driver, board_name, url, keywords, package_name):
+    """Navigate to board URL and extract any matching text snippets."""
+    leads = []
+    try:
+        driver.get(url)
+        WebDriverWait(driver, 10).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+        time.sleep(2)
+        body_text = driver.find_element(By.TAG_NAME, "body").text.lower()
+
+        matched_kw = [kw for kw in keywords if kw in body_text]
+        if matched_kw:
+            leads.append({
+                "package":    package_name,
+                "board":      board_name,
+                "url":        url,
+                "matched_kw": matched_kw,
+                "found_at":   datetime.utcnow().isoformat() + "Z"
+            })
+            print(f"  [HIT] {board_name} matched {matched_kw} for '{package_name}'")
+        else:
+            print(f"  [MISS] {board_name} — no match for '{package_name}'")
+    except Exception as e:
+        print(f"  [ERR] {board_name}: {e}")
+    return leads
+
+def load_leads():
+    if os.path.exists(LEADS_PATH):
+        with open(LEADS_PATH, "r") as f:
+            return json.load(f)
+    return []
+
+def save_leads(leads):
+    with open(LEADS_PATH, "w") as f:
+        json.dump(leads, f, indent=2)
+
+def dedup_leads(existing, new):
+    seen = {(l["package"], l["board"], l["url"]) for l in existing}
+    fresh = [l for l in new if (l["package"], l["board"], l["url"]) not in seen]
+    return existing + fresh
+
+def run_once(headless=True, packages_dir=PACKAGES_DIR):
+    packages = load_packages(packages_dir)
+    if not packages:
+        print("[ABORT] No packages to scout for.")
+        return
+
+    leads     = load_leads()
+    new_leads = []
+    driver    = build_driver(headless=headless)
+
+    try:
+        for pkg in packages:
+            name     = pkg.get("name", "unnamed")
+            keywords = extract_keywords(pkg)
+            query    = urllib.parse.quote_plus(" ".join(keywords[:3]))
+            print(f"\n[SCOUT] '{name}' — keywords: {keywords[:3]}")
+
+            for board_name, url_template in BOARDS:
+                url = url_template.format(query=query)
+                hits = scrape_board(driver, board_name, url, keywords, name)
+                new_leads.extend(hits)
+    finally:
+        driver.quit()
+
+    merged = dedup_leads(leads, new_leads)
+    save_leads(merged)
+    print(f"\n[DONE] {len(new_leads)} new lead(s) → {LEADS_PATH} (total: {len(merged)})")
+
+def main():
+    parser = argparse.ArgumentParser(description="Scout — job board lead finder")
+    parser.add_argument("--packages-dir", default=PACKAGES_DIR)
+    parser.add_argument("--no-headless", action="store_true", help="Show browser window")
+    parser.add_argument("--watch", action="store_true", help=f"Poll every {POLL_INTERVAL}s")
+    args = parser.parse_args()
+
+    headless = not args.no_headless
+
+    if args.watch:
+        print(f"[SCOUT] Watch mode — polling every {POLL_INTERVAL}s. Ctrl-C to stop.")
+        while True:
+            run_once(headless=headless, packages_dir=args.packages_dir)
+            print(f"  sleeping {POLL_INTERVAL}s...")
+            time.sleep(POLL_INTERVAL)
+    else:
+        run_once(headless=headless, packages_dir=args.packages_dir)
+
+if __name__ == "__main__":
+    main()

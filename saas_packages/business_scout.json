@@ -1,0 +1,15 @@
+{
+  "name": "Local Business Health Scout",
+  "tagline": "Automated risk and opportunity reporting for local businesses.",
+  "description": "Uses AI-free signals to audit public web presence, news, and complaints for any local business.",
+  "features": [
+    "Automatic business sentiment analysis",
+    "Negative/Risk indicator flagging",
+    "Lead generation opportunities",
+    "JSON/Markdown ready-to-send reports"
+  ],
+  "price_sats": 2500,
+  "pricing_model": "Pay-per-audit",
+  "estimated_roi_per_business": "Avoidance of bad partnerships/High-value lead data",
+  "target_platforms": ["Nostr", "Fiverr"]
+}

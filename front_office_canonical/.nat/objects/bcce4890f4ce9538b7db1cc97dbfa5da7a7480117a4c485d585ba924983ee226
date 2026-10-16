@@ -1,0 +1,16 @@
+{
+  "name": "Model Guard: LLM Quality Control",
+  "tagline": "Prevent 'hallucinated code' before it hits your repo.",
+  "description": "Don't let undersized 1.5B param LLMs touch your production codebase. Our 'Model Guard' acts as an autonomous quality-control layer, automatically intercepting incompetent model calls and forcing a human-in-the-loop override or a mandatory upgrade to a high-reasoning model.",
+  "features": [
+    "Autonomous 'Competence Threshold' validation",
+    "Real-time interception of weak-model CLI calls",
+    "Automatic 'Human-in-the-Loop' trigger for risky code",
+    "Integration for Llama.cpp, Ollama, and HuggingFace"
+  ],
+  "target_platforms": ["Development Pipelines", "CI/CD", "Local Dev Environments"],
+  "pricing_model": "$299/mo for enterprise-wide pipeline protection",
+  "delivery_days": 1,
+  "category": "ModMind AI Infrastructure",
+  "tags": ["model-security", "ai-governance", "code-integrity", "ModMind-dev"]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "HotSeat",
+  "tagline": "Three AI advisors. No corporate garbage. Real talk.",
+  "description": "HotSeat is a multi-persona AI advisory app built for solo developers and small teams. Three distinct AI characters — each with a unique voice, worldview, and specialty — give you brutally honest feedback on your work, decisions, and ideas. No sycophancy. No fluff. The boardroom you actually need. Built local-first on Android/Termux with Ollama. Configurable personas, extensible architecture.",
+  "features": [
+    "Three distinct AI advisor personas with unique voices and specialties",
+    "Brutally honest feedback — no corporate sycophancy",
+    "Local-first — runs on Android/Termux, no cloud required",
+    "Configurable persona system — swap or add characters",
+    "Designed for solo devs, founders, and small teams",
+    "Session logging and conversation history"
+  ],
+  "price_sats": 10000,
+  "pricing_model": "One-time setup fee or monthly SaaS — custom pricing per engagement",
+  "estimated_roi_per_business": "Replaces expensive consultants for early-stage decision making",
+  "target_platforms": ["Fiverr", "Upwork"]
+}

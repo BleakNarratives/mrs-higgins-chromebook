@@ -1,0 +1,14 @@
+{
+  "name": "Equinex Forge",
+  "price_sats": 35000,
+  "tagline": "Prototype and validate agent workflows with fast feedback.",
+  "description": "A research workspace for building, testing, and comparing agent workflows before they are pushed into production.",
+  "features": [
+    "Agentic workflow prototyping",
+    "Validation testing",
+    "Research-optimized design"
+  ],
+  "pricing_model": "Per-project research fee",
+  "estimated_roi_per_business": "Shortens the path from experiment to usable workflow",
+  "target_platforms": ["Upwork"]
+}

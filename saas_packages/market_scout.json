@@ -1,0 +1,39 @@
+{
+  "name": "MarketScout",
+  "tagline": "Autonomous market intelligence agent for identifying untapped opportunities",
+  "pricing_model": "Subscription - monthly Lightning payment",
+  "estimated_roi_per_business": "Identifies market gaps and opportunities worth 10-100x the subscription cost. Works 24/7 scanning OSM data and competitor activity.",
+  "target_platforms": [
+    "Fiverr",
+    "Upwork",
+    "Nostr",
+    "Direct"
+  ],
+  "price_sats": 25000,
+  "url": "https://marketscout.ai",
+  "description": "MarketScout is an autonomous AI agent that continuously scans open street map data, competitor listings, and market signals to identify untapped business opportunities. It provides actionable intelligence on where demand exceeds supply, pricing gaps, and emerging trends. Perfect for freelancers, small businesses, and investors looking for an edge.",
+  "features": [
+    "24/7 autonomous market scanning",
+    "OSM data analysis for local opportunities",
+    "Competitor price gap detection",
+    "Emerging trend identification",
+    "Actionable business intelligence reports",
+    "Lightning Network billing",
+    "Zero KYC - peer-to-peer payments only",
+    "Custom opportunity alerts",
+    "ROI calculations for each opportunity",
+    "Geographic heatmaps of demand"
+  ],
+  "technical_details": {
+    "architecture": "Python-based autonomous agent",
+    "data_sources": ["OpenStreetMap", "Competitor APIs", "Nostr"],
+    "autonomy_level": "90%",
+    "report_frequency": "Daily/Weekly",
+    "requirements": ["Python 3.10+", "pip dependencies"]
+  },
+  "income_potential": {
+    "monthly_estimate_sats": "250000-1000000",
+    "break_even_days": 10,
+    "scalability_factor": "Linear with client count"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Predictive Market Scout",
+  "price_sats": 55000,
+  "tagline": "Early signal detection for lead sourcing.",
+  "description": "Scans public data feeds for structural shifts and unusual movement so teams can act before a trend becomes obvious.",
+  "features": [
+    "Predictive anomaly detection",
+    "Early-bird signal filtering",
+    "High-confidence lead scoring"
+  ],
+  "pricing_model": "Monthly performance-based subscription",
+  "estimated_roi_per_business": "Improves timing on outreach and lead prioritization",
+  "target_platforms": ["Nostr", "Upwork"]
+}

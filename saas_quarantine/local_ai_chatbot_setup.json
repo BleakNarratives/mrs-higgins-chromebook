@@ -1,0 +1,19 @@
+{
+  "name": "Local AI Chatbot Setup",
+  "tagline": "Your own private AI assistant. No subscriptions. No data leaving your machine.",
+  "description": "I'll set up a fully local, private AI chatbot on your hardware using Ollama and open-source models. No cloud dependency, no monthly fees after setup, no data harvesting. Runs on modest hardware. You own it completely.",
+  "features": [
+    "Ollama installation and model configuration",
+    "Model selection matched to your hardware specs",
+    "Simple web UI for non-technical users",
+    "Basic system prompt tuning for your use case",
+    "Documentation so you can maintain it yourself"
+  ],
+  "target_platforms": ["Fiverr", "Upwork"],
+  "pricing_model": "Flat fee $149 setup / $49 for additional model configs",
+  "price_sats": 150000,
+  "estimated_roi_per_business": "Replaces $20-100/month ChatGPT or Copilot subscription within 2 months",
+  "delivery_days": 3,
+  "category": "AI & Machine Learning",
+  "tags": ["ollama", "local AI", "private AI", "chatbot", "no subscription"]
+}

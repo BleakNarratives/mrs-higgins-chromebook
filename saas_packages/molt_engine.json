@@ -1,0 +1,14 @@
+{
+  "name": "Molt Automation Engine",
+  "price_sats": 20000,
+  "tagline": "Task orchestration for distributed agent workloads.",
+  "description": "Coordinates multi-step agent jobs, routes work across modules, and keeps distributed automation from turning into a pile of ad hoc scripts.",
+  "features": [
+    "Modular orchestration",
+    "Distributed task management",
+    "Low-latency adaptation"
+  ],
+  "pricing_model": "Monthly enterprise license",
+  "estimated_roi_per_business": "Improves throughput and keeps orchestration maintainable",
+  "target_platforms": ["Nostr", "Upwork"]
+}

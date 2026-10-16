@@ -1,0 +1,193 @@
+[15:36:33] === Mrs. Higgins Pipeline START ===
+[15:36:33] Mode: LIVE | Platform: ALL
+[15:36:33] --- 1/5 Front Desk Lady ---
+[LOADED] android_dev_environment.json
+[LOADED] askhole.json
+[LOADED] business_scout.json
+[LOADED] hotseat.json
+[LOADED] lightning_payment_integration.json
+[LOADED] local_ai_chatbot_setup.json
+[LOADED] truthsleuth.json
+[LOADED] vertical_ai.json
+
+=== Mrs. Higgins ON DUTY [LIVE] — 8 package(s) ===
+
+[ROUTING] Android Dev Environment Setup
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+
+[ROUTING] AskHole
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Nostr
+
+[ROUTING] Local Business Health Scout
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Nostr
+  [OK] → Fiverr
+
+[ROUTING] HotSeat
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+
+[ROUTING] Lightning Payment Integration
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+  [OK] → Nostr
+
+[ROUTING] Local AI Chatbot Setup
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Fiverr
+  [OK] → Upwork
+
+[ROUTING] TruthSleuth Static Analysis Auditor
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Nostr
+  [OK] → Fiverr
+
+[ROUTING] Vertical AI
+  [Voltage] Error: <urlopen error [Errno 7] No address associated with hostname>
+  [Voltage] No invoice — check API key or connectivity
+  [OK] → Upwork
+  [OK] → Nostr
+
+[DONE] 17 route(s) logged → front_desk_routing_log.json
+[15:36:34] --- 2/5 Bookkeeper ---
+/storage/emulated/0/RootBase/mrs_higgins_saas/bookkeeper.py:46: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  "generated_at": datetime.utcnow().isoformat() + "Z",
+  [SKIP] Android Dev Environment Setup / Fiverr — no hash
+  [SKIP] Android Dev Environment Setup / Upwork — no hash
+  [SKIP] AskHole / Fiverr — no hash
+  [SKIP] AskHole / Nostr — no hash
+  [SKIP] Local Business Health Scout / Nostr — no hash
+  [SKIP] Local Business Health Scout / Fiverr — no hash
+  [SKIP] HotSeat / Fiverr — no hash
+  [SKIP] HotSeat / Upwork — no hash
+  [SKIP] Lightning Payment Integration / Fiverr — no hash
+  [SKIP] Lightning Payment Integration / Upwork — no hash
+  [SKIP] Lightning Payment Integration / Nostr — no hash
+  [SKIP] Local AI Chatbot Setup / Fiverr — no hash
+  [SKIP] Local AI Chatbot Setup / Upwork — no hash
+  [SKIP] TruthSleuth Static Analysis Auditor / Nostr — no hash
+  [SKIP] TruthSleuth Static Analysis Auditor / Fiverr — no hash
+  [SKIP] Vertical AI / Upwork — no hash
+  [SKIP] Vertical AI / Nostr — no hash
+
+[DONE] settled=0 pending=0 untracked=17
+       → income_summary.json
+[15:36:34] --- 3/5 The Closer ---
+/storage/emulated/0/RootBase/mrs_higgins_saas/the_closer.py:54: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  f"Time: `{datetime.utcnow().strftime('%Y-%m-%d %H:%M')} UTC`"
+[SOURCE] income_summary.json — 17 actionable entries
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Android Dev Environment Setup / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Android Dev Environment Setup / Upwork
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] AskHole / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] AskHole / Nostr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Local Business Health Scout / Nostr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Local Business Health Scout / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] HotSeat / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] HotSeat / Upwork
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Lightning Payment Integration / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Lightning Payment Integration / Upwork
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Lightning Payment Integration / Nostr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Local AI Chatbot Setup / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Local AI Chatbot Setup / Upwork
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] TruthSleuth Static Analysis Auditor / Nostr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] TruthSleuth Static Analysis Auditor / Fiverr
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Vertical AI / Upwork
+  [Telegram] Send failed: HTTP Error 401: Unauthorized
+  [FAIL] Vertical AI / Nostr
+
+[DONE] 0 message(s) fired → closer_sent.json
+[15:37:07] --- 4/5 Copywriter ---
+[COPYWRITER] model=llama3.2:1b packages=8
+  [Fiverr] Android Dev Environment Setup...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Upwork] Android Dev Environment Setup...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Fiverr] AskHole...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Nostr] AskHole...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Nostr] Local Business Health Scout...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Fiverr] Local Business Health Scout...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Fiverr] HotSeat...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Upwork] HotSeat...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Fiverr] Lightning Payment Integration...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Upwork] Lightning Payment Integration...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Nostr] Lightning Payment Integration...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Fiverr] Local AI Chatbot Setup...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Upwork] Local AI Chatbot Setup...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Nostr] TruthSleuth Static Analysis Auditor...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Fiverr] TruthSleuth Static Analysis Auditor...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Upwork] Vertical AI...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+  [Nostr] Vertical AI...   [Ollama] Error: <urlopen error [Errno 111] Connection refused>
+[FAIL]
+
+[DONE] Copy files in ./copy_output/
+[15:37:08] --- 5/5 Scout ---
+Traceback (most recent call last):
+  File "/storage/emulated/0/RootBase/mrs_higgins_saas/scout.py", line 16, in <module>
+    from selenium import webdriver
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/__init__.py", line 18, in <module>
+    from .firefox.webdriver import WebDriver as Firefox  # noqa
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/firefox/webdriver.py", line 29, in <module>
+    from selenium.webdriver.remote.webdriver import WebDriver as RemoteWebDriver
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/webdriver.py", line 27, in <module>
+    from .remote_connection import RemoteConnection
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/selenium/webdriver/remote/remote_connection.py", line 24, in <module>
+    import urllib3
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/__init__.py", line 8, in <module>
+    from .connectionpool import (
+    ...<3 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/connectionpool.py", line 11, in <module>
+    from .exceptions import (
+    ...<13 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/urllib3/exceptions.py", line 2, in <module>
+    from .packages.six.moves.http_client import (
+        IncompleteRead as httplib_IncompleteRead
+    )
+ModuleNotFoundError: No module named 'urllib3.packages.six.moves'
+[15:37:08] WARN: scout.py failed (non-fatal)
+[15:37:08] === Pipeline COMPLETE → ./logs/run_20260524_153633.log ===

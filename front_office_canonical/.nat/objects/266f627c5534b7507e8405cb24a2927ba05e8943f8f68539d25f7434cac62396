@@ -1,0 +1,14 @@
+{
+  "name": "ReconDog Security",
+  "price_sats": 12000,
+  "tagline": "DNS, subdomain, and infrastructure reconnaissance.",
+  "description": "Automates basic external footprint discovery and produces a concise reconnaissance report for review.",
+  "features": [
+    "Automated DNS scanning",
+    "Subdomain discovery",
+    "Security audit reporting"
+  ],
+  "pricing_model": "Per-audit fee",
+  "estimated_roi_per_business": "Surfaces exposed assets faster than manual checks",
+  "target_platforms": ["Fiverr", "Upwork"]
+}

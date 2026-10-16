@@ -1,0 +1,14 @@
+{
+  "name": "Maigret Intelligence",
+  "price_sats": 25000,
+  "tagline": "OSINT footprinting for username and profile correlation.",
+  "description": "Aggregates public username and profile traces across sources to build a usable investigation record without manual tab-hopping.",
+  "features": [
+    "Cross-platform profile aggregation",
+    "Dossier generation",
+    "Deep-web search heuristics"
+  ],
+  "pricing_model": "Per-investigation fee",
+  "estimated_roi_per_business": "Cuts manual OSINT collection time sharply",
+  "target_platforms": ["Fiverr", "Upwork"]
+}

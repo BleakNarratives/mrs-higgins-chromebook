@@ -1,0 +1,17 @@
+{
+  "name": "Vertical AI",
+  "tagline": "Local-first multi-agent AI system. No cloud. No keys. No excuses.",
+  "description": "Vertical AI is a fully local multi-agent AI system built to run on Android via Termux and Ollama. No paid APIs. No cloud dependency. No data leaving your device. Designed by a solo developer in Wellington, Kansas — it proves that serious AI infrastructure doesn't require a Silicon Valley budget. Includes agent orchestration, local inference, and a modular architecture that can be extended with new agents.",
+  "features": [
+    "Fully local — runs on Android/Termux with Ollama",
+    "No API keys, no cloud, no ongoing costs after setup",
+    "Multi-agent orchestration built in",
+    "Modular architecture — add new agents as needed",
+    "Proven on real hardware by a solo developer",
+    "Privacy-first — all data stays on device"
+  ],
+  "price_sats": 25000,
+  "pricing_model": "One-time setup and configuration service — custom quote per client",
+  "estimated_roi_per_business": "Eliminates ongoing cloud AI costs — pays for itself within 1-2 months for active users",
+  "target_platforms": ["Upwork", "Nostr"]
+}

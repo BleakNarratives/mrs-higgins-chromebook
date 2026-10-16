@@ -1,0 +1,14 @@
+{
+  "name": "Capitulation Prediction Engine",
+  "price_sats": 60000,
+  "tagline": "Market risk signals for capitulation timing.",
+  "description": "Tracks sentiment, liquidity, and technical indicators to flag when a market segment is moving toward a stress event or disorderly exit.",
+  "features": [
+    "Institutional liquidity tracking",
+    "Sentiment-to-liquidity correlation",
+    "Time-to-capitulation forecasting"
+  ],
+  "pricing_model": "Per-forecast or enterprise access",
+  "estimated_roi_per_business": "Improves timing on risk-off decisions and exit planning",
+  "target_platforms": ["Nostr"]
+}

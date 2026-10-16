@@ -1,0 +1,14 @@
+{
+  "name": "Swarm Token Economist",
+  "price_sats": 50000,
+  "tagline": "Budget-aware routing and resource allocation for AI swarms.",
+  "description": "Balances local and external model usage against live token cost and workload budgets so swarms stay affordable and predictable.",
+  "features": [
+    "Dynamic API vs. Local LLM routing",
+    "Automated per-agent resource allocation",
+    "Micro-Sats budget enforcement metrics"
+  ],
+  "pricing_model": "Performance-based % of token cost savings",
+  "estimated_roi_per_business": "Keeps model spend under control without killing throughput",
+  "target_platforms": ["Nostr", "Upwork"]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "DocGenius",
+  "tagline": "AI-powered documentation that writes itself",
+  "description": "DocGenius automatically generates and maintains up-to-date documentation from your codebase. Using advanced AST analysis and natural language processing, it creates comprehensive, professional documentation that stays in sync with your code changes. Supports multiple output formats and can integrate with your existing documentation workflows.",
+  "features": [
+    "Automatic documentation generation from code",
+    "AST-based analysis for accurate extraction",
+    "Multiple output formats (Markdown, JSON, HTML)",
+    "API reference generation",
+    "Class and method documentation",
+    "Parameter and return type extraction",
+    "Example code generation",
+    "Documentation versioning and updates"
+  ],
+  "target_platforms": ["GitHub Marketplace", "Direct SaaS", "VS Code Extension"],
+  "pricing_model": "Freemium - Free for open source, $29/month for private repos, $149/month for teams",
+  "price_sats": 30000,
+  "estimated_roi_per_business": "Reduces documentation time by 75% and ensures documentation is always up-to-date",
+  "delivery_days": 14,
+  "category": "Developer Tools",
+  "tags": ["documentation", "automatic docs", "code analysis", "developer tools", "AST analysis", "API documentation"]
+}

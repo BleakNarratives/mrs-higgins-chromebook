@@ -1,0 +1,66 @@
+[
+  {
+    "package": "Adversarial Shield Agent",
+    "event_id": "779abfe25181b13f240ab03247cdd4a8dcb1cd105a4a665ed4ffed0a73e48590"
+  },
+  {
+    "package": "Android Dev Environment Setup",
+    "event_id": "7749885ae108ce3ad3f9110c53d313d4e3157ac0e7739692d502b9f824eea01f"
+  },
+  {
+    "package": "AskHole",
+    "event_id": "1329f72a8d851e86886cadbecfe60c6ca8f658624e4fc0c1794298f4f92198f5"
+  },
+  {
+    "package": "AskHole AI Assistant",
+    "event_id": "1957ecb6303fe33dde27a9b56a717dc3abac1b761a3cc73f11709ce4c99688a7"
+  },
+  {
+    "package": "Local Business Health Scout",
+    "event_id": "f7e64d32ed3c2163f9355f01a64e548c25d4f9fa157eff60690d1a83f0ad19d4"
+  },
+  {
+    "package": "Code City Apocalypse Scanner",
+    "event_id": "a178e16c5835c3f710ae3f4805a3a5343f4a1de5e3d951ca346a879ade5abc9c"
+  },
+  {
+    "package": "Code City Blue Beta Access",
+    "event_id": "c449f0751f957d1b79ffcf6922466c5da49b768a86ece4fcfa577c05653d76f4"
+  },
+  {
+    "package": "HotSeat",
+    "event_id": "bd3ea4fb9518685793649c2b862559e5628bf6036bf0648f05836329187284d1"
+  },
+  {
+    "package": "Lightning Payment Integration",
+    "event_id": "7cfbbcf18a80a96d10fc26541869ca58b3233d15dc670645a945a67586be27b5"
+  },
+  {
+    "package": "Local AI Chatbot Setup",
+    "event_id": "40d3cf4336222c0b41b29ca43ee6475d66d59bd020ba49e92d2a94de362bf85c"
+  },
+  {
+    "package": "Maigret Intelligence",
+    "event_id": "31ec683053d999b1b08f178aaf0d9981098e7bfa6a6ecbec90df29ccb424d378"
+  },
+  {
+    "package": "Operational Fidelity Monitor",
+    "event_id": "c894893636bad4f12f57e9ba34afa032a4d5ffdfbe308afa8f35b2dfad3cfaee"
+  },
+  {
+    "package": "Privacy Guardian Agent",
+    "event_id": "22dc5393475440a928b230326b4ba0a3f5eb5517b0317a7aed34ca5c2737c197"
+  },
+  {
+    "package": "ReconDog Security",
+    "event_id": "a573ac03297bd45b9cbe7b55f04c84f50340a5bd69f302a937f51d8792eba01b"
+  },
+  {
+    "package": "TruthSleuth Static Analysis Auditor",
+    "event_id": "6c2a3f2ada5bb1e687c2bbc1453f966add8173a2b7316c6f039f599a4f105587"
+  },
+  {
+    "package": "Voice Synthesis Agent",
+    "event_id": "92a770793b239833130ca1ce1de50d9519cf63298cd835654ab9a669bf7c332d"
+  }
+]

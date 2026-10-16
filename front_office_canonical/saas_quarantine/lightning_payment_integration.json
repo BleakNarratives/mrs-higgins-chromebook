@@ -1,0 +1,19 @@
+{
+  "name": "Lightning Payment Integration",
+  "tagline": "Accept Bitcoin payments instantly. No Stripe. No chargebacks. No middlemen.",
+  "description": "I'll integrate Lightning Network payments into your existing website or app. Instant settlement, near-zero fees, global by default. Built for developers and small businesses who are done paying 2.9% per transaction to payment processors.",
+  "features": [
+    "LNbits or Voltage API integration",
+    "BOLT11 invoice generation endpoint",
+    "Webhook setup for payment confirmation",
+    "Basic dashboard for payment tracking",
+    "Works with any stack — Python, Node, PHP"
+  ],
+  "target_platforms": ["Fiverr", "Upwork", "Nostr"],
+  "pricing_model": "Flat fee $199 / $99 for additional endpoints",
+  "price_sats": 200000,
+  "estimated_roi_per_business": "Saves 2.9% per transaction vs Stripe — pays for itself at ~$7k monthly volume",
+  "delivery_days": 5,
+  "category": "Blockchain & Cryptocurrency",
+  "tags": ["lightning", "bitcoin", "payments", "LNbits", "BOLT11", "no fees"]
+}

@@ -1,0 +1,8 @@
+{"timestamp": "2026-08-30T02:32:38.206191+00:00", "note": "Kindred joined the gossip bus \u2014 registered as SPECIALIST under mikey", "message_id": "gb_1788056588083"}
+{"timestamp": "2026-08-30T02:56:14.845751+00:00", "note": "Live smoke complete \u2014 companion=Mama-Smoke", "message_id": "gb_1788058130361"}
+{"timestamp": "2026-08-30T02:56:14.847703+00:00", "note": "0 rescue-plan monsters released into Code City \u2014 3 problems identified", "message_id": "gb_1788058415657"}
+{"timestamp": "2026-08-30T02:56:14.847880+00:00", "note": "3 rescue-plan monsters released into Code City \u2014 3 problems identified", "message_id": "gb_1788058426378"}
+{"timestamp": "2026-08-30T03:02:20.111031+00:00", "note": "First live companion Partner forged and tested \u2014 chat turn completed via Groq", "message_id": "gb_1788058936632"}
+{"timestamp": "2026-08-30T03:39:06.433406+00:00", "note": "{'name': 'Sawbone', 'packs': ['code_rescuer', 'business_partner'], 'mission': 'live rescue of ~/Whorl'}", "message_id": "gb_1788061146138"}
+{"timestamp": "2026-08-30T03:40:26.485907+00:00", "note": "{'name': 'Sawbone', 'target': '~/Whorl', 'qa_score': 0.78, 'plan_chars': 6432}", "message_id": "gb_1788061225690"}
+{"timestamp": "2026-08-30T03:40:36.495716+00:00", "note": "5 rescue-plan monsters released into Code City \u2014 5 problems identified", "message_id": "gb_1788061234481"}

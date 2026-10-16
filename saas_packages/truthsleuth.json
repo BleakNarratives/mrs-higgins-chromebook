@@ -1,0 +1,15 @@
+{
+  "name": "TruthSleuth Static Analysis Auditor",
+  "tagline": "Stop trusting your AI with bad code. Audit it yourself.",
+  "description": "TruthSleuth is a blistering fast, AST-based static analysis engine that finds hardcoded secrets, 'spaghetti' logic, and security vulnerabilities without the hallucination of LLM-based tools.",
+  "features": [
+    "Hardcoded secret detection",
+    "Spaghetti logic identification",
+    "AST-based complexity reporting",
+    "Portable HTML/JSON output"
+  ],
+  "price_sats": 5000,
+  "pricing_model": "Pay-per-audit",
+  "estimated_roi_per_business": "Immediate prevention of costly security breaches",
+  "target_platforms": ["Nostr", "Fiverr"]
+}
